@@ -1,0 +1,51 @@
+﻿@* @model Otlobly.ViewModels.CardOrderViewModel
+@using Microsoft.Extensions.Options
+
+@inject IOptions<Otlobly.Utility.PaymentStatus> Stripe
+
+@{
+    ViewData["Title"] = "Summary";
+}
+
+
+<form method="post">
+    <div class="row">
+        <div class="col-md-8 mb-4">
+            <div class="card mb-4">
+                <div class="card-footer">
+                    <div class="row">
+                        <div class="col-12 col-md-4 offset-md-8">
+                            @{
+                                var OrderTotal = Model.OrderHeader.OrderTotal * 100;
+                            }
+                            <script src="https://checkout.stripe.com/checkout.js" class="stripe-b">
+                                data-key ="@Stripe.Value.Publishablekey"
+                                data-amount = "@OrderTotal"
+                                data-name = "Otlobly"
+                                data-label = "Place Order"
+                                data-description = "Quality Food"
+                                data-locale = "auto"
+                                data-allow-remember-me = "false"
+                                data-image = "https://stripe.com/documentation/checkout/mar"
+                                </script>
+                                <script>
+                                    documentation.getElementsByClassName("stripe-button-el")[0].style.display
+                                </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+<div>
+    <h4>CardOrderViewModel</h4>
+    <hr />
+    <dl class="row">
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
+    <a asp-action="Index">Back to List</a>
+</div>
+ *@

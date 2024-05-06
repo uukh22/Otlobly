@@ -1,0 +1,80 @@
+﻿@using Otlobly.ViewModels
+@model List<UserViewModel>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Username</th>
+            <th>Email</th>
+            <th>Role</th>
+            <th>Actions</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var user in Model)
+        {
+            <tr>
+                <td>@user.UserName</td>
+                <td>@user.Email</td>
+                <td>@user.Roles</td>
+                <td>@(user.IsLocked ? "Locked" : "Not Locked")</td>
+                <td>
+                    @if (User.IsInRole("Admin"))
+                    {
+
+                        @if (user.Roles == "Manager")
+                        {
+                            <form asp-controller="User" asp-action="EditRoleToCustomer" method="post">
+                                <input type="hidden" name="userId" value="@user.Id" />
+                                <button type="submit" class="btn btn-secondary">Edit to Customer</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-controller="User" asp-action="EditRoleToManager" method="post">
+                                <input type="hidden" name="userId" value="@user.Id" />
+                                <button type="submit" class="btn btn-primary">Edit to Manager</button>
+                            </form>
+                        }
+                        @if (user.IsLocked)
+                        {
+                            <form asp-controller="User" asp-action="Unlock" method="post">
+                                <input type="hidden" name="id" value="@user.Id" />
+                                <button type="submit" class="btn btn-success">Unlock</button>
+                            </form>
+                        }
+                        else
+                        {
+                            <form asp-controller="User" asp-action="Lock" method="post">
+                                <input type="hidden" name="id" value="@user.Id" />
+                                <button type="submit" class="btn btn-danger">Lock</button>
+                            </form>
+                        }
+                    }
+                    else
+                    {
+                        @if (user.Roles != "Admin")
+                        {
+                            @if (user.IsLocked)
+                            {
+                                <form asp-controller="User" asp-action="Unlock" method="post">
+                                    <input type="hidden" name="id" value="@user.Id" />
+                                    <button type="submit" class="btn btn-success">Unlock</button>
+                                </form>
+                            }
+                            else
+                            {
+                                <form asp-controller="User" asp-action="Lock" method="post">
+                                    <input type="hidden" name="id" value="@user.Id" />
+                                    <button type="submit" class="btn btn-danger">Lock</button>
+                                </form>
+                            }
+                        }
+
+                    }
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

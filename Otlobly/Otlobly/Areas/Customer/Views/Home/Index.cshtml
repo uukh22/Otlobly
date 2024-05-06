@@ -1,0 +1,60 @@
+﻿@model Otlobly.ViewModels.ItemViewModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Home</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+               Title
+            </th>
+            <th>
+                Description
+            </th>
+            <th>
+                price
+            </th>
+            <th>
+                Image
+            </th>
+            <th>
+                Category
+            </th>
+            <th>
+                Sub Category
+            </th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Items) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Description)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                    @{
+                        var base64 = Convert.ToBase64String(item.Image);
+                        var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                    }
+                    <img src="@imgsrc" height="50" width="50" />
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Category.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.SubCategory.Title)
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

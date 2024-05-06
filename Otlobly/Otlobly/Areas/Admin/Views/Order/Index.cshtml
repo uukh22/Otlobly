@@ -1,0 +1,46 @@
+﻿@model IEnumerable<Otlobly.Models.OrderHeader>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container">
+    <div class="row py-3">
+        <div class="col-md-6">
+            <h2 class="text-primary">List Of Orders</h2>
+        </div>
+        <div class="col-md-6">
+            <a asp-controller="Order" asp-action="Index" asp-route-status="Pending" class="btn btn-primary">Pending</a>
+            <a asp-controller="Order" asp-action="Index" asp-route-status="Approved" class="btn btn-primary">Approved</a>
+            <a asp-controller="Order" asp-action="Index" asp-route-status="UnderProcessing" class="btn btn-primary">Under Processing</a>
+            <a asp-controller="Order" asp-action="Index" asp-route-status="Shipped" class="btn btn-primary">Shipped</a>
+            <a asp-action="Index" asp-controller="Order" asp-route-status="all" class="btn btn-primary">All</a>
+        </div>
+    </div>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Phone</th>
+                <th>Order Total</th>
+                <th>Order Status</th>
+                <th>Payment Status</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>@Html.DisplayFor(modelItem => item.Name)</td>
+                    <td>@Html.DisplayFor(modelItem => item.Phone)</td>
+                    <td>@Html.DisplayFor(modelItem => item.OrderTotal)</td>
+                    <td>@Html.DisplayFor(modelItem => item.OrderStatus)</td>
+                    <td>@Html.DisplayFor(modelItem => item.PaymentStatus)</td>
+                    <td>@Html.ActionLink("Details", "Details", new { id = item.Id }, new { @class = "btn btn-info" })</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

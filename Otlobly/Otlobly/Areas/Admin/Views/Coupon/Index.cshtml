@@ -1,0 +1,108 @@
+﻿@model IEnumerable<Otlobly.Models.Coupon>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>@ViewData["Title"]</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <style>
+        .container {
+            margin-top: 50px;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        .table img {
+            border-radius: 50%;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Index</h1>
+
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Create New</a>
+        </p>
+        <table class="table">
+            <thead>
+                <tr>
+                   
+                    <th>
+                        Coupon Name
+                    </th>
+                    <th>
+                        Title
+                    </th>
+                    <th>
+                        Coupon Type
+                    </th>
+                    <th>
+                        Discount
+                    </th>
+                    <th>
+                        Minimum Amount
+                    </th>
+                    <th>
+                        Coupon Picture
+                    </th>
+                    <th>
+                        IsActive
+                    </th>
+                    <th>
+                        Actions
+                    </th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                       
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Coupon_Name)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Title)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Coupon_Type)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Discount)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.MinimumAmount)
+                        </td>
+                        <td>
+                            @{
+                                var base64 = Convert.ToBase64String(item.Coupon_Picture);
+                                var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                            }
+                            <img src="@imgsrc" height="50" width="50" />
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.IsActive)
+                        </td>
+                        <td>
+                            @Html.ActionLink("Edit", "Edit", new { id = item.Coupon_Id }, new { @class = "btn btn-primary" }) |
+                            @Html.ActionLink("Details", "Details", new { id = item.Coupon_Id }, new { @class = "btn btn-info" }) |
+                            @Html.ActionLink("Delete", "Delete", new { id = item.Coupon_Id }, new { @class = "btn btn-danger" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>

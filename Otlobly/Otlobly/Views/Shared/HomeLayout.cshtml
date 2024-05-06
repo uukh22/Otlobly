@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Otlobly</title>
+    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+</head>
+<body>
+    @* <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Otlobly</a>
+                <button aria-label="Toggle navigation" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        @if (User.IsInRole("Admin")||User.IsInRole("Manager"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="adminMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Admin Menu
+                                </a>
+
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Categories" asp-action="Index">Categories</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Coupon" asp-action="Index">Coupon</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Item" asp-action="Index">Items</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="SubCatgories" asp-action="Index">Sub Catgories</a>
+
+                            </li>
+                        }
+                        @if (User.IsInRole("Customer"))
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="customerMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Your Account
+                                </a>
+                                <a class="dropdown-item" asp-area="Customer" asp-controller="Cart" asp-action="Index">Cart</a>
+                                <a class="dropdown-item" asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+
+                                <div class="dropdown-menu" aria-labelledby="customerMenuLink">
+                                </div>
+                            </li>
+                        }   
+
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header> *@
+    <header>
+        <div class="menu">
+            <nav>
+                <input type="checkbox" id="check" />
+                <label for="check" class="checkbtn">
+                    <ion-icon name="grid-outline"></ion-icon>
+                </label>
+                <label class="logo">Otlobly</label>
+                <ul>
+                    <ul>
+                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="active">Home</a></li>
+                        <li><a asp-area="Customer" asp-controller="Home" asp-action="Index">Menu</a></li>
+                        <li><a asp-area="Identity" asp-controller="Account" asp-action="Register">Register</a></li>
+                        <li><a href="/Identity/Account/Login">Login</a></li>
+                    </ul>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div>
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+  
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

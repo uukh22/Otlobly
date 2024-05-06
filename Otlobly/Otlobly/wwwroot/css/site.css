@@ -1,0 +1,74 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+a {
+    color: #258cfb;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+
+    a:hover {
+        color: #196ebe;
+    }
+
+/* Header Styles */
+header {
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 15px 0;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #258cfb;
+}
+
+.navbar-collapse {
+    justify-content: flex-start;
+}
+
+/* Content Styles */
+.container {
+    max-width: 1024px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+main {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 5px;
+}
+
+/* Additional Styles (Optional) */
+.btn {
+    background-color: #258cfb;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    transition: all 0.2s ease-in-out;
+}
+
+    .btn:hover {
+        background-color: #196ebe;
+    }
+
+.food-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.food-description {
+    font-size: 16px;
+    line-height: 1.5;
+}
