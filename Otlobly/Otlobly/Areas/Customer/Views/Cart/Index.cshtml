@@ -12,41 +12,51 @@
                 @{
                     if (Model.ListOfCard.Count > 0)
                     {
-                        foreach (var cart in Model.ListOfCard)
-                        {
-                            <div class="card rounded-3 mb-4">
-                                <div class="card-body p-4">
-                                    <div class="row d-flex justify-content-between align-items-center">
-                                        <div class="col-md-2 col-lg-2 col-xl-2">
-                                            <img src="@cart.Item.Image" class="img-fluid rounded-3" alt="Cotton T-shirt" />
-                                        </div>
+                       
+                            @foreach (var cart in Model.ListOfCard)
+                            {
+                                <div class="card rounded-3 mb-4">
+                                    <div class="card-body p-4">
+                                        <div class="row d-flex justify-content-between align-items-center">
+                                            <div class="col-md-2 col-lg-2 col-xl-2">
+                                                @{
+                                                    var base64 = Convert.ToBase64String(cart.Item.Image);
+                                                    var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                                                }
+                                                <img src="@imgsrc" height="70" width="70" />
+                                            </div>
 
-                                        <div class="col-md-3 col-lg-3 col-xl-3">
-                                            <p class="lead fw-normal mb-2">@cart.Item.Title</p>
-                                            <p><span class="text-muted">@Html.Raw(cart.Item.Description)</span></p>
-                                        </div>
+                                            <div class="col-md-3 col-lg-3 col-xl-3">
+                                                <p class="lead fw-normal mb-2">@cart.Item.Title</p>
+                                                <p><span class="text-muted">@Html.Raw(cart.Item.Description)</span></p>
+                                            </div>
 
-                                        <div class="col-md-3 col-gl-2 col-xl-2 offset-lg-1">
+                                            <div class="col-md-3 col-gl-2 col-xl-2 offset-lg-1">
                                             <h5 class="md-0">@cart.Item.Price</h5>x<h5 class="mb-0">@cart.count</h5>
-                                        </div>
+                                            </div>
 
-                                        <div class="col-md-3 col-gl-2 col-xl-2 d-flex">
-                                            <a asp-action="Plus" asp-route-id="@cart.Id" class="btn btn-link px-2">
-                                                <i class="fas fa-plus-Circle fa-lg"></i>
-                                            </a>
+                                            <div class="col-md-3 col-gl-2 col-xl-2 d-flex">
+                                                <a asp-action="Plus" asp-route-id="@cart.Id" class="btn btn-primary">
+                                                    +
+                                                </a>
 
-                                            <a asp-action="Minus" asp-route-id="@cart.Id" class="btn btn-link px-2">
-                                                <i class="fas fa-minus-Circle fa-lg"></i>
-                                            </a>
+                                                <a asp-action="Minus" asp-route-id="@cart.Id" class="btn btn-primary">
+                                                    -
+                                                </a>
 
-                                            <a asp-action="Delete" asp-route-id="@cart.Id" class="btn btn-link px-2">
-                                                <i class="fas fa-trash-Circle fa-lg"></i>
-                                            </a>
+                                                <a asp-action="Delete" asp-route-id="@cart.Id" class="btn btn-primary">
+                                                    x
+                                                </a>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                            }
+
+                            <div class="row">
+                                <a asp-controller="Cart" asp-action="Summary" type="submit" class="btn btn-primary">Go To Payment</a>
                             </div>
-                        }
+
                     }
                     else
                     {

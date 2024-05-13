@@ -17,6 +17,6 @@ namespace Otlobly.ViewModels
         public List<Category>? Categories { get; set; }
         public List<SubCategory>? SubCategories { get; set; }
         public List<Coupon>? Coupons { get; set; }
-       
+
     }
 }

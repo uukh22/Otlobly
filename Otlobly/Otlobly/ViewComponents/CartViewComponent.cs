@@ -24,7 +24,7 @@ namespace Otlobly.ViewComponents
                 else
                 {
                     HttpContext.Session.SetInt32("SessionCart", _context
-                        .Carts.Where(x => x.User_Id == claims.Value).ToList().Count);
+                        .Carts.Where(x => x.ApplicationUserId == claims.Value).ToList().Count);
 
                     return View(HttpContext.Session.GetInt32("SessionCart"));
                 }

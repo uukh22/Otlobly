@@ -6,11 +6,12 @@ using System.Threading.Tasks;
 
 namespace Otlobly.Utility
 {
-    public static class PaymentStatus
+    public  class PaymentStatus
     {
         public const string StatusPending = "Pending";
         public const string StatusApproved = "Approved";
         public const string StatusRejected = "Rejected";
-        public const string StatusPayentDelayed = "Delay";
+        public string Publishablekey { get; set; }
+        public  string Secretkey { get; set; }
     }
 }

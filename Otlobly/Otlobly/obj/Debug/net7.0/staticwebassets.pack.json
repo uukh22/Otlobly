@@ -1,279 +1,299 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Otlobly.bundle.scp.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Otlobly.bundle.scp.css",
       "PackagePath": "staticwebassets\\Otlobly.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\Images\\47276989-5b4f-42c0-b767-e6d726a3a369_AYM_1804.JPG",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\32e5e1f8-18e6-4d65-849e-ff6dd843612f_defualt.jpg",
+      "PackagePath": "staticwebassets\\Images\\32e5e1f8-18e6-4d65-849e-ff6dd843612f_defualt.jpg"
+    },
+    {
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\47276989-5b4f-42c0-b767-e6d726a3a369_AYM_1804.JPG",
       "PackagePath": "staticwebassets\\Images\\47276989-5b4f-42c0-b767-e6d726a3a369_AYM_1804.JPG"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\Images\\6a38c92e-1028-41f5-96a5-f12c9b7e0b63_IMG_5518.JPG",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\6a38c92e-1028-41f5-96a5-f12c9b7e0b63_IMG_5518.JPG",
       "PackagePath": "staticwebassets\\Images\\6a38c92e-1028-41f5-96a5-f12c9b7e0b63_IMG_5518.JPG"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\Images\\7a0aa16e-4769-40d2-a801-d1a9f6bdd06d_erd.jpg",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\7a0aa16e-4769-40d2-a801-d1a9f6bdd06d_erd.jpg",
       "PackagePath": "staticwebassets\\Images\\7a0aa16e-4769-40d2-a801-d1a9f6bdd06d_erd.jpg"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\Images\\b01c914e-d029-4a13-a10b-e532bb958b43_ASCII-Table.svg.png",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\7e061ac7-e25d-4c16-bb23-89c1afa40e55_IMG_1686.JPG",
+      "PackagePath": "staticwebassets\\Images\\7e061ac7-e25d-4c16-bb23-89c1afa40e55_IMG_1686.JPG"
+    },
+    {
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\Logo Otlobly.png",
+      "PackagePath": "staticwebassets\\Images\\Logo Otlobly.png"
+    },
+    {
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\aaf7d14c-8fce-42c7-9229-89434de9aa2d_defualt.jpg",
+      "PackagePath": "staticwebassets\\Images\\aaf7d14c-8fce-42c7-9229-89434de9aa2d_defualt.jpg"
+    },
+    {
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\b01c914e-d029-4a13-a10b-e532bb958b43_ASCII-Table.svg.png",
       "PackagePath": "staticwebassets\\Images\\b01c914e-d029-4a13-a10b-e532bb958b43_ASCII-Table.svg.png"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\Images\\b201b38a-e62f-4fd4-a07b-daac9f197e9a_38_Presentation.pptx",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\b201b38a-e62f-4fd4-a07b-daac9f197e9a_38_Presentation.pptx",
       "PackagePath": "staticwebassets\\Images\\b201b38a-e62f-4fd4-a07b-daac9f197e9a_38_Presentation.pptx"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\Images\\cc615028-3c5c-4a69-9e44-b42a39753f1d_defualt.jpg",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\cc615028-3c5c-4a69-9e44-b42a39753f1d_defualt.jpg",
       "PackagePath": "staticwebassets\\Images\\cc615028-3c5c-4a69-9e44-b42a39753f1d_defualt.jpg"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\Images\\ebf17dc5-ff88-4aa0-bbfb-8fd9ed5c97e9_WhatsApp Image 2023-11-16 at 13.22.03_de01314e.jpg",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\ebf17dc5-ff88-4aa0-bbfb-8fd9ed5c97e9_WhatsApp Image 2023-11-16 at 13.22.03_de01314e.jpg",
       "PackagePath": "staticwebassets\\Images\\ebf17dc5-ff88-4aa0-bbfb-8fd9ed5c97e9_WhatsApp Image 2023-11-16 at 13.22.03_de01314e.jpg"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\css\\StyleSheet.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\fbdf2f9a-2640-4034-8c89-3c9d234d88ae_defualt.jpg",
+      "PackagePath": "staticwebassets\\Images\\fbdf2f9a-2640-4034-8c89-3c9d234d88ae_defualt.jpg"
+    },
+    {
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\css\\StyleSheet.css",
       "PackagePath": "staticwebassets\\css\\StyleSheet.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\css\\site.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\favicon.ico",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\js\\site.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\LOGO\\Desktop\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {

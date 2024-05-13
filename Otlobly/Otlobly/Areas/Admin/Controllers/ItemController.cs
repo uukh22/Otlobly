@@ -136,11 +136,16 @@ namespace Otlobly.Areas.Admin.Controllers
         {
             var item = _context.Items.Where(x => x.Id == Id).FirstOrDefault();
             ItemViewModel viewModel = new ItemViewModel();
-
+           
             if (item != null)
             {
                 viewModel.Title = item.Title;
-                viewModel.Id = item.Id;
+                viewModel.Description = item.Description;
+                viewModel.price = item.Price;
+                viewModel.Image = item.Image;
+                viewModel.CategoryId = item.CategoryId;
+                viewModel.SubcategoryId = item.SubcategoryId;
+
                 ViewBag.Category = new SelectList(_context.Categories, "Id", "Title", item.CategoryId);
                 ViewBag.SubCategory = new SelectList(_context.SubCategories, "Id", "Title", item.SubcategoryId);
             }
@@ -148,42 +153,60 @@ namespace Otlobly.Areas.Admin.Controllers
         }
 
         [HttpPost]
-        public  async Task< IActionResult> Edit(ItemViewModel model)
-
+        public async Task<IActionResult> Edit(ItemViewModel model)
         {
-            var itemm = _context.Items.Where(x => x.Id == model.Id).FirstOrDefault();
-
-            byte[] Photo = null;
-            if (ModelState.IsValid)
+            if (!ModelState.IsValid)
             {
-                var files = Request.Form.Files;
-                if (files.Count > 0)
-                {
-                    using (var fileStream = files[0].OpenReadStream())
-                    {
-                        using (var memoryStream = new MemoryStream())
-                        {
-                           await fileStream.CopyToAsync(memoryStream);
-                            Photo = memoryStream.ToArray();
-                        }
-                    }
+                return View(model); // Return the view with the current model to display validation errors
+            }
 
-                    itemm.Image = Photo;
+            var itemm = await _context.Items.FirstOrDefaultAsync(x => x.Id == model.Id);
+            if (itemm == null)
+            {
+                return NotFound($"Item with ID {model.Id} was not found.");
+            }
+
+            var files = Request.Form.Files;
+            if (files.Count > 0)
+            {
+                var file = files[0];
+                var permittedExtensions = new[] { ".jpg", ".jpeg", ".png", ".gif" };
+                var extension = Path.GetExtension(file.FileName).ToLowerInvariant();
+
+                if (!permittedExtensions.Contains(extension))
+                {
+                    ModelState.AddModelError("", "Invalid file type. Only JPG, JPEG, PNG, and GIF are allowed.");
+                    return View(model);
                 }
 
-                itemm.Price = model.price;
-                itemm.Title = model.Title;
-                itemm.Description = model.Description;
-                itemm.CategoryId = model.CategoryId;
-                itemm.SubcategoryId = model.SubcategoryId;
+                using (var memoryStream = new MemoryStream())
+                {
+                    await file.CopyToAsync(memoryStream);
+                    itemm.Image = memoryStream.ToArray();
+                }
+            }
 
+            // Update other properties
+            itemm.Price = model.price;
+            itemm.Title = model.Title;
+            itemm.Description = model.Description;
+            itemm.CategoryId = model.CategoryId;
+            itemm.SubcategoryId = model.SubcategoryId;
+
+            try
+            {
                 _context.Items.Update(itemm);
                 await _context.SaveChangesAsync();
                 return RedirectToAction("Index");
             }
-
-            return View(itemm);
+            catch (Exception ex)
+            {
+                ModelState.AddModelError("", "An error occurred while saving the item. Please try again.");
+                return View(model);
+            }
         }
+
+
 
         [HttpGet]
         public IActionResult Delete(int Id)
@@ -193,9 +216,6 @@ namespace Otlobly.Areas.Admin.Controllers
             
                     _context.Items.Remove(item);
                     _context.SaveChanges();
-                
-            
-            
 
             return RedirectToAction("Index");
         }

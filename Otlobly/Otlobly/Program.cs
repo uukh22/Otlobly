@@ -1,10 +1,11 @@
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.Options;
 using Otlobly.Models;
 using Otlobly.Repository;
+using Otlobly.Utility;
 using Stripe;
-
 
 namespace Otlobly
 {
@@ -17,17 +18,7 @@ namespace Otlobly
 
             builder.Services.AddDbContext<OtloblyContext>(options =>
             options.UseSqlServer(builder.Configuration.GetConnectionString("OtloblyContextConnection"), b => b.MigrationsAssembly("Otlobly")));
-            
-            builder.Services.AddAuthorization(options =>
-            {
-                options.AddPolicy("AdminOrManagerPolicy", policy =>
-                policy.RequireRole("Admin", "Manager"));
-            });
-
-            //builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<OtloblyContext>();
-
-            //builder.Services.AddDefaultIdentity<ApplicationUser>(options => options.SignIn.RequireConfirmedAccount = true)
-            //    .AddEntityFrameworkStores<OtloblyContext>();
+            builder.Services.Configure<PaymentStatus>(builder.Configuration.GetSection("Stripe"));    
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<OtloblyContext>()
@@ -35,12 +26,15 @@ namespace Otlobly
 
             builder.Services.AddScoped<IDbInitializer, DbInitializer>();
             builder.Services.AddScoped<IEmailSender, EmailSender>();
-            
+            builder.Services.AddSession();
             builder.Services.AddRazorPages();
-            // Add services to the container.
             builder.Services.AddControllersWithViews();
 
             var app = builder.Build();
+
+            var serviceProvider = builder.Services.BuildServiceProvider();
+            var stripeSettings = serviceProvider.GetRequiredService<IOptionsSnapshot<PaymentStatus>>().Value;
+            StripeConfiguration.ApiKey = stripeSettings.Secretkey;
 
             // Configure the HTTP request pipeline.
             if (!app.Environment.IsDevelopment())
@@ -57,6 +51,7 @@ namespace Otlobly
             app.UseAuthentication();
             app.UseAuthorization();
             app.MapRazorPages();
+            app.UseSession();
 
             app.MapControllerRoute(
                name: "identity",

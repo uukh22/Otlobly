@@ -6,7 +6,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace Otlobly.Migrations
 {
     /// <inheritdoc />
-    public partial class testol : Migration
+    public partial class initialYa3omry : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -220,12 +220,11 @@ namespace Otlobly.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
-                    User_Id = table.Column<string>(type: "nvarchar(max)", nullable: true),
+                    SessionId = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     ApplicationUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     OrderDate = table.Column<DateTime>(type: "datetime2", nullable: false),
                     TimeOfPick = table.Column<DateTime>(type: "datetime2", nullable: false),
                     DateOfPick = table.Column<DateTime>(type: "datetime2", nullable: false),
-                    SubTotal = table.Column<double>(type: "float", nullable: false),
                     OrderTotal = table.Column<double>(type: "float", nullable: false),
                     CouponCode = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     CouponDis = table.Column<double>(type: "float", nullable: false),
@@ -288,7 +287,7 @@ namespace Otlobly.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Item_Id = table.Column<int>(type: "int", nullable: false),
-                    User_Id = table.Column<string>(type: "nvarchar(450)", nullable: true),
+                    ApplicationUserId = table.Column<string>(type: "nvarchar(450)", nullable: true),
                     count = table.Column<int>(type: "int", nullable: false),
                     OrderHeaderId = table.Column<int>(type: "int", nullable: true)
                 },
@@ -296,8 +295,8 @@ namespace Otlobly.Migrations
                 {
                     table.PrimaryKey("PK_Carts", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_Carts_AspNetUsers_User_Id",
-                        column: x => x.User_Id,
+                        name: "FK_Carts_AspNetUsers_ApplicationUserId",
+                        column: x => x.ApplicationUserId,
                         principalTable: "AspNetUsers",
                         principalColumn: "Id");
                     table.ForeignKey(
@@ -383,6 +382,11 @@ namespace Otlobly.Migrations
                 filter: "[NormalizedUserName] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
+                name: "IX_Carts_ApplicationUserId",
+                table: "Carts",
+                column: "ApplicationUserId");
+
+            migrationBuilder.CreateIndex(
                 name: "IX_Carts_Item_Id",
                 table: "Carts",
                 column: "Item_Id");
@@ -391,11 +395,6 @@ namespace Otlobly.Migrations
                 name: "IX_Carts_OrderHeaderId",
                 table: "Carts",
                 column: "OrderHeaderId");
-
-            migrationBuilder.CreateIndex(
-                name: "IX_Carts_User_Id",
-                table: "Carts",
-                column: "User_Id");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Items_CategoryId",

@@ -16,6 +16,25 @@ a {
         color: #196ebe;
     }
 
+.admin-menu {
+    background-color: #f4f4f4;
+    padding: 10px;
+}
+
+    .admin-menu a {
+        margin-right: 10px;
+        text-decoration: none;
+        color: #333;
+    }
+
+        .admin-menu a:hover {
+            color: #555;
+        }
+
+.menu-links {
+    display: inline-block;
+}
+
 /* Header Styles */
 header {
     background-color: #fff;
@@ -35,9 +54,11 @@ header {
 
 /* Content Styles */
 .container {
+    background-color: #f1f1f1;
     max-width: 1024px;
     margin: 0 auto;
-    padding: 20px;
+    padding: 10px;
+    margin-top: 10px; /* Updated margin-top */
 }
 
 main {
@@ -45,6 +66,21 @@ main {
     padding: 20px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
+}
+
+/* Table Styles */
+.table-responsive {
+    margin-top: 20px;
+}
+
+#itemTable th, td, tr {
+    padding: 15px;
+    text-align: center;
+}
+
+/* Image Styles */
+img.img-fluid {
+    max-height: 100px;
 }
 
 /* Additional Styles (Optional) */
@@ -60,6 +96,11 @@ main {
     .btn:hover {
         background-color: #196ebe;
     }
+
+.btn-sm {
+    padding: 0.25rem 0.5rem;
+    font-size: 0.875rem;
+}
 
 .food-image {
     width: 200px;

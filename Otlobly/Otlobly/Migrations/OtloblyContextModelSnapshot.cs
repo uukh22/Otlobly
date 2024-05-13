@@ -246,25 +246,25 @@ namespace Otlobly.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("ApplicationUserId")
+                        .HasColumnType("nvarchar(450)");
+
                     b.Property<int>("Item_Id")
                         .HasColumnType("int");
 
                     b.Property<int?>("OrderHeaderId")
                         .HasColumnType("int");
 
-                    b.Property<string>("User_Id")
-                        .HasColumnType("nvarchar(450)");
-
                     b.Property<int>("count")
                         .HasColumnType("int");
 
                     b.HasKey("Id");
 
+                    b.HasIndex("ApplicationUserId");
+
                     b.HasIndex("Item_Id");
 
                     b.HasIndex("OrderHeaderId");
-
-                    b.HasIndex("User_Id");
 
                     b.ToTable("Carts");
                 });
@@ -433,16 +433,13 @@ namespace Otlobly.Migrations
                     b.Property<string>("Phone")
                         .HasColumnType("nvarchar(max)");
 
-                    b.Property<double>("SubTotal")
-                        .HasColumnType("float");
+                    b.Property<string>("SessionId")
+                        .HasColumnType("nvarchar(max)");
 
                     b.Property<DateTime>("TimeOfPick")
                         .HasColumnType("datetime2");
 
                     b.Property<string>("Trans_Id")
-                        .HasColumnType("nvarchar(max)");
-
-                    b.Property<string>("User_Id")
                         .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
@@ -529,6 +526,10 @@ namespace Otlobly.Migrations
 
             modelBuilder.Entity("Otlobly.Models.Cart", b =>
                 {
+                    b.HasOne("Otlobly.Models.ApplicationUser", "User")
+                        .WithMany("Carts")
+                        .HasForeignKey("ApplicationUserId");
+
                     b.HasOne("Otlobly.Models.Item", "Item")
                         .WithMany()
                         .HasForeignKey("Item_Id")
@@ -538,10 +539,6 @@ namespace Otlobly.Migrations
                     b.HasOne("Otlobly.Models.OrderHeader", null)
                         .WithMany("Payments")
                         .HasForeignKey("OrderHeaderId");
-
-                    b.HasOne("Otlobly.Models.ApplicationUser", "User")
-                        .WithMany("Carts")
-                        .HasForeignKey("User_Id");
 
                     b.Navigation("Item");
 

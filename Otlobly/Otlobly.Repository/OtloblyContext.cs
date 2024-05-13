@@ -25,12 +25,12 @@ namespace Otlobly.Repository
             modelBuilder.Entity<ApplicationUser>()
                 .HasMany(u => u.Carts)
                 .WithOne(c => c.User)
-                .HasForeignKey(o => o.User_Id);
+                .HasForeignKey(o => o.ApplicationUserId);
 
             modelBuilder.Entity<Cart>()
                 .HasOne(c => c.User)
                 .WithMany(u => u.Carts)
-                .HasForeignKey(c => c.User_Id);
+                .HasForeignKey(c => c.ApplicationUserId);
 
             modelBuilder.Entity<Cart>()
                 .HasOne(c => c.Item)
@@ -42,7 +42,6 @@ namespace Otlobly.Repository
                 .WithOne(s => s.Category)
                 .HasForeignKey(s => s.Category_Id);
 
-          
 
             modelBuilder.Entity<OrderHeader>()
                 .HasMany(o => o.OrderDetails)

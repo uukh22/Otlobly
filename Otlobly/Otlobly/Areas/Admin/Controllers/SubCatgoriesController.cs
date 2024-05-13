@@ -24,6 +24,7 @@ namespace Otlobly.Areas.Admin.Controllers
 
             return View(subCategory);
         }
+
         [HttpGet]
         public IActionResult Create()
         {

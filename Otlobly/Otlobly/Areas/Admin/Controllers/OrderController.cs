@@ -6,6 +6,7 @@ using Otlobly.Repository;
 using Otlobly.Utility;
 using Otlobly.ViewModels;
 using Stripe;
+using Stripe.TestHelpers;
 using System.Security.Claims;
 
 namespace Otlobly.Areas.Admin.Controllers
@@ -20,6 +21,7 @@ namespace Otlobly.Areas.Admin.Controllers
         {
             _context = context;
         }
+
         [HttpGet]
         public IActionResult Index(string status)
         {
@@ -27,14 +29,12 @@ namespace Otlobly.Areas.Admin.Controllers
             if (User.IsInRole("Admin")|| User.IsInRole("Manager"))
             {
                 order = _context.OrderHeaders.Include(x => x.ApplicationUser).ToList();
-
             }
             else
             {
                     var climsIdentity = (ClaimsIdentity)User.Identity;
                     var clims = climsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-
-                    order = _context.OrderHeaders.Where(x => x.User_Id == clims.Value);
+                    order = _context.OrderHeaders.Where(x => x.ApplicationUserId == clims.Value);
             }
             switch (status)
             {
@@ -64,39 +64,51 @@ namespace Otlobly.Areas.Admin.Controllers
                 
                 orderDetails = _context.OrderDetails.Include(x => x.Item)
                 .Where(item => item.Id == Id).ToList()
-
             };
+           
             return View(OrderDetail);
         }
-        public IActionResult InPorcess(OrderDetilsViewModel orderDetilsViewModel)
+        public IActionResult InPorcess(int Id)
         {
-            var orderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == orderDetilsViewModel.orderHeader.Id);
+            var orderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == Id);
+            
             orderHeader.OrderStatus = orderStatus.StatusUnderProcessing;
-            _context.SaveChanges();
-            TempData["succes"] = "Order Status Updated-Inporcess";
-            return RedirectToAction("OrderDetails", "Orders", new { id = orderDetilsViewModel.orderHeader.Id });
-        }
-        public IActionResult Shipped(OrderDetilsViewModel orderDetilsViewModel)
-        {
-            var orderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == orderDetilsViewModel.orderHeader.Id);
-            orderHeader.OrderStatus = orderStatus.StatusShpped;
+            
             _context.OrderHeaders.Update(orderHeader);
             _context.SaveChanges();
-            TempData["success"] = "Order Status Updated-Shipped";
-            return RedirectToAction("OrderDetails", "Orders", new { id = orderDetilsViewModel.orderHeader.Id });
+            
+            TempData["succes"] = "Order Status Updated-Inporcess";
+
+            return RedirectToAction("Index", "Order", new { id = Id });
         }
-        public IActionResult CalncelOrder(OrderDetilsViewModel orderDetilsViewModel)
+        public IActionResult Shipped(int Id)
         {
-            var OrderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == orderDetilsViewModel.orderHeader.Id);
+            var orderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == Id);
+           
+            orderHeader.OrderStatus = orderStatus.StatusShpped;
+            orderHeader.DateOfPick = DateTime.Now;
+            _context.OrderHeaders.Update(orderHeader);
+            _context.SaveChanges();
+           
+            TempData["success"] = "Order Status Updated-Shipped";
+           
+            return RedirectToAction("Index", "Order", new { id = Id });
+        }
+        public IActionResult CalncelOrder(int Id)
+        {
+            var OrderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == Id);
+          
             if (OrderHeader.PaymentStatus == PaymentStatus.StatusApproved)
             {
-                var refund = new RefundCreateOptions
+                var options = new RefundCreateOptions
                 {
                     Reason = RefundReasons.RequestedByCustomer,
                     PaymentIntent = OrderHeader.Trans_Id
                 };
-                var Service = new RefundService();
-                Stripe.Refund refund1 = Service.Create(refund);
+                var Service = new Stripe.RefundService();
+
+                var refund = Service.Create(options);
+
                 OrderHeader.OrderStatus = orderStatus.StatusCancelled;
                 OrderHeader.PaymentStatus = PaymentStatus.StatusRejected;
             }
@@ -105,9 +117,10 @@ namespace Otlobly.Areas.Admin.Controllers
                 OrderHeader.OrderStatus = orderStatus.StatusCancelled;
                 OrderHeader.PaymentStatus = PaymentStatus.StatusRejected;
             }
+            _context.OrderHeaders.Update(OrderHeader);
             _context.SaveChanges();
             TempData["Succes"] = "Order Cancelld";
-            return RedirectToAction("OrderDetails", "Orders", new { id = orderDetilsViewModel.orderHeader.Id });
+            return RedirectToAction("Index", "Order", new { id = Id });
 
         }
     }

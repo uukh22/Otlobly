@@ -1,51 +1,58 @@
-﻿@* @model Otlobly.ViewModels.CardOrderViewModel
+﻿@model Otlobly.ViewModels.CardOrderViewModel
 @using Microsoft.Extensions.Options
 
-@inject IOptions<Otlobly.Utility.PaymentStatus> Stripe
+@inject IOptions<Otlobly.Utility.PaymentStatus> StripeOptions
 
 @{
-    ViewData["Title"] = "Summary";
+    ViewData["Title"] = "Order Summary";
 }
 
-
-<form method="post">
+<h2>@ViewData["Title"]</h2>
+<div class="container">
     <div class="row">
         <div class="col-md-8 mb-4">
-            <div class="card mb-4">
+            <div class="card">
+                <div class="card-body">
+                    <h4>Order Details</h4>
+                    <dl class="row">
+                        <dt class="col-sm-3">Order ID:</dt>
+                        <dd class="col-sm-9">@Model.OrderHeader.Id</dd>
+
+                        <dt class="col-sm-3">Name:</dt>
+                        <dd class="col-sm-9">@Model.OrderHeader.ApplicationUser.Name</dd>
+
+                        <dt class="col-sm-3">Phone Number:</dt>
+                        <dd class="col-sm-9">@Model.OrderHeader.ApplicationUser.PhoneNumber</dd>
+
+                        <dt class="col-sm-3">Total:</dt>
+                        <dd class="col-sm-9">@Model.OrderHeader.OrderTotal.ToString("C")</dd>
+
+                        <dt class="col-sm-3">Time of Pickup:</dt>
+                        <dd class="col-sm-9">@Model.OrderHeader.TimeOfPick.ToString("f")</dd>
+                    </dl>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
                 <div class="card-footer">
-                    <div class="row">
-                        <div class="col-12 col-md-4 offset-md-8">
-                            @{
-                                var OrderTotal = Model.OrderHeader.OrderTotal * 100;
-                            }
-                            <script src="https://checkout.stripe.com/checkout.js" class="stripe-b">
-                                data-key ="@Stripe.Value.Publishablekey"
-                                data-amount = "@OrderTotal"
-                                data-name = "Otlobly"
-                                data-label = "Place Order"
-                                data-description = "Quality Food"
-                                data-locale = "auto"
-                                data-allow-remember-me = "false"
-                                data-image = "https://stripe.com/documentation/checkout/mar"
-                                </script>
-                                <script>
-                                    documentation.getElementsByClassName("stripe-button-el")[0].style.display
-                                </script>
-                        </div>
-                    </div>
+                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
+                            data-key="@StripeOptions.Value.Publishablekey"
+                            data-amount="@Model.OrderHeader.OrderTotal * 100" // Converting to cents for Stripe
+                            data-name="Otlobly Orders"
+                            data-description="Your Order Summary"
+                            data-image="https://example.com/your-logo.png"
+                            data-locale="auto"
+                            data-currency="usd"
+                            data-label="Pay with Stripe">
+                    </script>
                 </div>
             </div>
         </div>
     </div>
-</form>
-<div>
-    <h4>CardOrderViewModel</h4>
-    <hr />
-    <dl class="row">
-    </dl>
+
+    <div class="mt-4">
+        @Html.ActionLink("Edit Order", "Edit", new { id = Model.OrderHeader.Id }, new { @class = "btn btn-primary" })
+        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
+    </div>
 </div>
-<div>
-    @Html.ActionLink("Edit", "Edit", new { /* id = Model.PrimaryKey */ }) |
-    <a asp-action="Index">Back to List</a>
-</div>
- *@

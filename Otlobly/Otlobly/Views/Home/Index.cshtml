@@ -1,5 +1,13 @@
 ﻿@{
-    Layout = "HomeLayout";
+    if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+    {
+        Layout = "_Layout";
+    }
+    else
+    {
+        Layout = "HomeLayout";
+
+    }
 }
 
 <body>
