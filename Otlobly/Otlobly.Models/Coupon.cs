@@ -22,7 +22,6 @@ namespace Otlobly.Models
         [DefaultValue("defult.png")]
        // [Column(TypeName = "varbinary(max)")]
         [RegularExpression(@"\.(jpg|jpeg|png|gif)$", ErrorMessage = "Invalid file format. Please upload a valid image.")]
-
         public byte[] Coupon_Picture { get; set; }
         [Required]
         public bool IsActive { get; set; }

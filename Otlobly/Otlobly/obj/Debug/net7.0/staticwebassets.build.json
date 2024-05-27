@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "fImrlH8BRimUTLHYFAOQ+nKxE5krl8+DIJuA9q935g8=",
+  "Hash": "nExHZy1mPIWW5AfIoXrgjKfENToO5UwWt6ud3VvXL+Y=",
   "Source": "Otlobly",
   "BasePath": "_content/Otlobly",
   "Mode": "Default",
@@ -1364,6 +1364,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\7e061ac7-e25d-4c16-bb23-89c1afa40e55_IMG_1686.JPG"
+    },
+    {
+      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\9cb57c19-0823-494e-8efe-2ea942baadaa_IMG_5518.JPG",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/9cb57c19-0823-494e-8efe-2ea942baadaa_IMG_5518.JPG",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\9cb57c19-0823-494e-8efe-2ea942baadaa_IMG_5518.JPG"
     },
     {
       "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\aaf7d14c-8fce-42c7-9229-89434de9aa2d_defualt.jpg",

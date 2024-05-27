@@ -101,7 +101,7 @@ namespace Otlobly.Areas.Customer.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task <IActionResult> Summary(CardOrderViewModel ShoppingCartVM)
+        public async Task <IActionResult> Summary(CardOrderViewModel vmodel)
         {
             var clainsIdentity = (ClaimsIdentity)User.Identity;
             var claim = clainsIdentity.FindFirst(ClaimTypes.NameIdentifier);
@@ -171,6 +171,8 @@ namespace Otlobly.Areas.Customer.Controllers
             var orderHeader = await _context.OrderHeaders.FirstOrDefaultAsync(x => x.Id == details.OrderHeader.Id);
             if (orderHeader != null)
             {
+                orderHeader.Name = vmodel.OrderHeader.Name;
+                orderHeader.Phone = vmodel.OrderHeader.Phone;
                 orderHeader.DateOfPick = DateTime.Now;
                 orderHeader.Trans_Id = session.PaymentIntentId;
                 orderHeader.SessionId = session.Id;
