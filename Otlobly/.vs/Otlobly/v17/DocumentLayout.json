@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "E:\\MVC\\Otlobly\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{9D3F133C-B092-4A9D-9278-44FAABD9D8C0}|Otlobly\\Otlobly.csproj|e:\\mvc\\otlobly\\otlobly\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{9D3F133C-B092-4A9D-9278-44FAABD9D8C0}|Otlobly\\Otlobly.csproj|solutionrelative:otlobly\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{9D3F133C-B092-4A9D-9278-44FAABD9D8C0}|Otlobly\\Otlobly.csproj|e:\\mvc\\otlobly\\otlobly\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{9D3F133C-B092-4A9D-9278-44FAABD9D8C0}|Otlobly\\Otlobly.csproj|solutionrelative:otlobly\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -53,10 +57,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{660CACE6-9253-4409-A097-76DA710F9CE2}|Otlobly.Models\\Otlobly.Models.csproj|e:\\mvc\\otlobly\\otlobly.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{660CACE6-9253-4409-A097-76DA710F9CE2}|Otlobly.Models\\Otlobly.Models.csproj|solutionrelative:otlobly.models\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{9D3F133C-B092-4A9D-9278-44FAABD9D8C0}|Otlobly\\Otlobly.csproj|e:\\mvc\\otlobly\\otlobly\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9D3F133C-B092-4A9D-9278-44FAABD9D8C0}|Otlobly\\Otlobly.csproj|solutionrelative:otlobly\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -66,24 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ToolTip": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T11:30:48.293Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "Program.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Program.cs",
               "RelativeDocumentMoniker": "Otlobly\\Program.cs",
@@ -91,12 +78,11 @@
               "RelativeToolTip": "Otlobly\\Program.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAzwA0AAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T11:24:25.113Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T11:24:25.113Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Summary.cshtml",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
               "RelativeDocumentMoniker": "Otlobly\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
@@ -104,12 +90,11 @@
               "RelativeToolTip": "Otlobly\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAAGAAAAAlAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T11:18:24.457Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T11:18:24.457Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
               "RelativeDocumentMoniker": "Otlobly\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
@@ -117,25 +102,23 @@
               "RelativeToolTip": "Otlobly\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
               "ViewState": "AQIAAC0AAAAAAAAAAAAAADYAAABVAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-05-27T11:01:22.846Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T11:01:22.846Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CartController.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeDocumentMoniker": "Otlobly\\Areas\\Customer\\Controllers\\CartController.cs",
               "ToolTip": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Controllers\\CartController.cs",
               "RelativeToolTip": "Otlobly\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AQIAAKkAAAAAAAAAAAAAAMEAAAAAAAAA",
+              "ViewState": "AQIAAKUAAAAAAAAAAAAowMEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T11:01:17.148Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T11:01:17.148Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "SubCategory.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\SubCategory.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\SubCategory.cs",
@@ -143,12 +126,11 @@
               "RelativeToolTip": "Otlobly.Models\\SubCategory.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAASAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:47:14.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:47:14.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "OrderHeader.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\OrderHeader.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\OrderHeader.cs",
@@ -156,12 +138,36 @@
               "RelativeToolTip": "Otlobly.Models\\OrderHeader.cs",
               "ViewState": "AQIAABQAAAAAAAAAAAA6wAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:47:08.281Z",
+              "WhenOpened": "2024-05-27T10:47:08.281Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAJAAAAAAAAAAAAAuwKIAAAAnAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T10:39:20.117Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Otlobly\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-27T11:30:48.293Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "OrderDetails.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\OrderDetails.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\OrderDetails.cs",
@@ -169,12 +175,11 @@
               "RelativeToolTip": "Otlobly.Models\\OrderDetails.cs",
               "ViewState": "AQIAAAgAAAAAAAAAAAAAwAwAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:46:57.581Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:46:57.581Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "Item.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\Item.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\Item.cs",
@@ -182,12 +187,11 @@
               "RelativeToolTip": "Otlobly.Models\\Item.cs",
               "ViewState": "AQIAAA0AAAAAAAAAAAAQwBoAAAArAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:46:20.152Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:46:20.152Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "Coupon.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\Coupon.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\Coupon.cs",
@@ -195,12 +199,11 @@
               "RelativeToolTip": "Otlobly.Models\\Coupon.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAgwBcAAAB5AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:46:00.258Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:46:00.258Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "Category.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\Category.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\Category.cs",
@@ -208,12 +211,11 @@
               "RelativeToolTip": "Otlobly.Models\\Category.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:45:49.402Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:45:49.402Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "Cart.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\Cart.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\Cart.cs",
@@ -221,12 +223,11 @@
               "RelativeToolTip": "Otlobly.Models\\Cart.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAABLAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:45:33.442Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:45:33.442Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "ApplicationUser.cs",
               "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly.Models\\ApplicationUser.cs",
               "RelativeDocumentMoniker": "Otlobly.Models\\ApplicationUser.cs",
@@ -234,21 +235,7 @@
               "RelativeToolTip": "Otlobly.Models\\ApplicationUser.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:45:31.972Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "E:\\MVC\\Otlobly\\Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Otlobly\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAJMAAAAAAAAAAAAuwKIAAAAnAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T10:39:20.117Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-27T10:45:31.972Z"
             }
           ]
         }
