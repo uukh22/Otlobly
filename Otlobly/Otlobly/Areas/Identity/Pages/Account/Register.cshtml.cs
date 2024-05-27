@@ -151,12 +151,14 @@ namespace Otlobly.Areas.Identity.Pages.Account
                     {
                         // Unsupported file type, return validation error
                         ModelState.AddModelError("ProfilePicture", "Please select a profile picture of type .jpg, .jpeg, .png, or .gif");
+                        return Page();
                     }
                 }
                 else
                 {
                     // No file uploaded, return validation error
                     ModelState.AddModelError("ProfilePicture", "Please select a profile picture.");
+                    return Page();
                 }
                 user.Name = Input.Name;
                 user.City = Input.City;

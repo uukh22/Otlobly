@@ -135,3 +135,20 @@ E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
 E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
 E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
 E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll

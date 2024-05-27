@@ -95,3 +95,15 @@ E:\MVC\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.dll
 E:\MVC\Otlobly\Otlobly.Models\obj\Debug\net7.0\refint\Otlobly.Models.dll
 E:\MVC\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.pdb
 E:\MVC\Otlobly\Otlobly.Models\obj\Debug\net7.0\ref\Otlobly.Models.dll
+E:\New folder (2)\Otlobly\Otlobly.Models\bin\Debug\net7.0\Otlobly.Models.deps.json
+E:\New folder (2)\Otlobly\Otlobly.Models\bin\Debug\net7.0\Otlobly.Models.dll
+E:\New folder (2)\Otlobly\Otlobly.Models\bin\Debug\net7.0\Otlobly.Models.pdb
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.csproj.AssemblyReference.cache
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.AssemblyInfoInputs.cache
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.AssemblyInfo.cs
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.csproj.CoreCompileInputs.cache
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.dll
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\refint\Otlobly.Models.dll
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\Otlobly.Models.pdb
+E:\New folder (2)\Otlobly\Otlobly.Models\obj\Debug\net7.0\ref\Otlobly.Models.dll
