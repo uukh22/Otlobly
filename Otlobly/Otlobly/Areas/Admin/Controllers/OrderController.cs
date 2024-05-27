@@ -21,7 +21,6 @@ namespace Otlobly.Areas.Admin.Controllers
         {
             _context = context;
         }
-
         [HttpGet]
         public IActionResult Index(string status)
         {
@@ -71,9 +70,10 @@ namespace Otlobly.Areas.Admin.Controllers
         public IActionResult InPorcess(int Id)
         {
             var orderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == Id);
-            
-            orderHeader.OrderStatus = orderStatus.StatusUnderProcessing;
-            
+            if (orderHeader.OrderStatus != orderStatus.StatusCancelled)
+            {
+                orderHeader.OrderStatus = orderStatus.StatusUnderProcessing;
+            }
             _context.OrderHeaders.Update(orderHeader);
             _context.SaveChanges();
             
@@ -84,9 +84,11 @@ namespace Otlobly.Areas.Admin.Controllers
         public IActionResult Shipped(int Id)
         {
             var orderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == Id);
-           
-            orderHeader.OrderStatus = orderStatus.StatusShpped;
-            orderHeader.DateOfPick = DateTime.Now;
+            if (orderHeader.OrderStatus != orderStatus.StatusCancelled)
+            {
+                orderHeader.OrderStatus = orderStatus.StatusShpped;
+                orderHeader.DateOfPick = DateTime.Now;
+            }
             _context.OrderHeaders.Update(orderHeader);
             _context.SaveChanges();
            
@@ -97,26 +99,30 @@ namespace Otlobly.Areas.Admin.Controllers
         public IActionResult CalncelOrder(int Id)
         {
             var OrderHeader = _context.OrderHeaders.FirstOrDefault(x => x.Id == Id);
-          
-            if (OrderHeader.PaymentStatus == PaymentStatus.StatusApproved)
+            if (OrderHeader.OrderStatus != orderStatus.StatusShpped)
             {
-                var options = new RefundCreateOptions
+                if (OrderHeader.PaymentStatus == PaymentStatus.StatusApproved)
                 {
-                    Reason = RefundReasons.RequestedByCustomer,
-                    PaymentIntent = OrderHeader.Trans_Id
-                };
-                var Service = new Stripe.RefundService();
+                    var options = new RefundCreateOptions
+                    {
+                        Reason = RefundReasons.RequestedByCustomer,
+                        PaymentIntent = OrderHeader.Trans_Id
+                    };
+                    var Service = new Stripe.RefundService();
 
-                var refund = Service.Create(options);
+                    var refund = Service.Create(options);
 
-                OrderHeader.OrderStatus = orderStatus.StatusCancelled;
-                OrderHeader.PaymentStatus = PaymentStatus.StatusRejected;
+                    OrderHeader.OrderStatus = orderStatus.StatusCancelled;
+                    OrderHeader.PaymentStatus = PaymentStatus.StatusRejected;
+                }
+                else
+                {
+                    OrderHeader.OrderStatus = orderStatus.StatusCancelled;
+                    OrderHeader.PaymentStatus = PaymentStatus.StatusRejected;
+                }
             }
-            else
-            {
-                OrderHeader.OrderStatus = orderStatus.StatusCancelled;
-                OrderHeader.PaymentStatus = PaymentStatus.StatusRejected;
-            }
+          
+            
             _context.OrderHeaders.Update(OrderHeader);
             _context.SaveChanges();
             TempData["Succes"] = "Order Cancelld";

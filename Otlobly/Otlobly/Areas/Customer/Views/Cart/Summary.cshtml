@@ -7,52 +7,117 @@
     ViewData["Title"] = "Order Summary";
 }
 
-<h2>@ViewData["Title"]</h2>
-<div class="container">
-    <div class="row">
-        <div class="col-md-8 mb-4">
+<form method="post" asp-action="Summary">
+    <br />
+    <div class="backgroundWhiteBorder">
+        <div class="container">
             <div class="card">
+                <div class="card-header bg-primary text-light container row mx-0">
+                    <div class="col-6">
+                        <i class="bi bi-cart3"></i>&nbsp;
+                        Order Summary
+                    </div>
+                    <div class="col-6 text-end">
+                        <a asp-action="Index" class="btn btn-outline-info btn-sm">Back to Cart</a>
+                    </div>
+                </div>
                 <div class="card-body">
-                    <h4>Order Details</h4>
-                    <dl class="row">
-                        <dt class="col-sm-3">Order ID:</dt>
-                        <dd class="col-sm-9">@Model.OrderHeader.Id</dd>
+                    <div class="container rounded p-2">
+                        <div class="row">
+                            <div class="col-12 col-lg-6 pb-4">
+                                <div class="row">
+                                    <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                        <span class="text-info">Delivery Details:</span>
+                                    </h4>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Name</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrderHeader.Name" type="text" class="form-control" />
+                                        <span asp-validation-for="OrderHeader.Name" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Phone</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrderHeader.Phone" type="text" class="form-control" />
+                                        <span asp-validation-for="OrderHeader.Phone" class="text-danger"></span>
+                                    </div>
+                                </div>
+                               
+                                
+                                 <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Street Address</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrderHeader.ApplicationUser.Address" type="text" class="form-control" />
+                                        <span asp-validation-for="OrderHeader.ApplicationUser.Address" class="text-danger"></span>
+                                    </div>
+                                </div>
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>City</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrderHeader.ApplicationUser.City" type="text" class="form-control" />
+                                        <span asp-validation-for="OrderHeader.ApplicationUser.City" class="text-danger"></span>
+                                    </div>
+                                </div> 
+                                <div class="row my-1">
+                                    <div class="col-3">
+                                        <label>Postal Code</label>
+                                    </div>
+                                    <div class="col-9">
+                                        <input asp-for="OrderHeader.ApplicationUser.PostalCode" type="text" class="form-control" />
+                                        <span asp-validation-for="OrderHeader.ApplicationUser.PostalCode" class="text-danger"></span>
+                                    </div>
+                                </div>
 
-                        <dt class="col-sm-3">Name:</dt>
-                        <dd class="col-sm-9">@Model.OrderHeader.ApplicationUser.Name</dd>
+                            </div>
+                            <div class="col-12 col-lg-5 offset-lg-1">
+                                <h4 class="d-flex justify-content-between align-items-center mb-3">
+                                    <span class="text-info">Order Summary:</span>
+                                </h4>
+                                <ul class="list-group mb-3">
 
-                        <dt class="col-sm-3">Phone Number:</dt>
-                        <dd class="col-sm-9">@Model.OrderHeader.ApplicationUser.PhoneNumber</dd>
+                                    @foreach (var details in Model.ListOfCard)
+                                    {
+                                        <li class="list-group-item d-flex justify-content-between">
+                                            <div>
+                                                <h6 class="my-0">@details.Item.Title</h6>
+                                                <small class="text-muted">Quantity: @details.count</small>
+                                            </div>
+                                            <span class="text-muted">@((details.Item.Price) * details.count).ToString("c"))</span>
+                                        </li>
+                                    }
+                                    <li class="list-group-item d-flex justify-content-between bg-light">
+                                        <small class="text-info">Total:&nbsp;</small>
+                                        <strong class="text-info">@Model.OrderHeader.OrderTotal.ToString("c")</strong>
+                                    </li>
 
-                        <dt class="col-sm-3">Total:</dt>
-                        <dd class="col-sm-9">@Model.OrderHeader.OrderTotal.ToString("C")</dd>
-
-                        <dt class="col-sm-3">Time of Pickup:</dt>
-                        <dd class="col-sm-9">@Model.OrderHeader.TimeOfPick.ToString("f")</dd>
-                    </dl>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-md-4">
-            <div class="card">
                 <div class="card-footer">
-                    <script src="https://checkout.stripe.com/checkout.js" class="stripe-button"
-                            data-key="@StripeOptions.Value.Publishablekey"
-                            data-amount="@Model.OrderHeader.OrderTotal * 100" // Converting to cents for Stripe
-                            data-name="Otlobly Orders"
-                            data-description="Your Order Summary"
-                            data-image="https://example.com/your-logo.png"
-                            data-locale="auto"
-                            data-currency="usd"
-                            data-label="Pay with Stripe">
-                    </script>
+                    <div class="row">
+                        <div class="col-12 col-md-8 pt-2">
+                            <p style="color:maroon; font-size:14px;">Estimate Arrival Date: @DateTime.Now.AddDays(7).ToShortDateString() - @DateTime.Now.AddDays(14).ToShortDateString()</p>
+                        </div>
+                        <div class="col-12 col-md-4">
+                            <button type="submit" class="btn btn-success form-control">
+                                <i class="bi bi-credit-card"></i>&nbsp; Place Order
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </div>
-
-    <div class="mt-4">
-        @Html.ActionLink("Edit Order", "Edit", new { id = Model.OrderHeader.Id }, new { @class = "btn btn-primary" })
-        <a asp-action="Index" class="btn btn-secondary">Back to List</a>
-    </div>
-</div>
+</form>

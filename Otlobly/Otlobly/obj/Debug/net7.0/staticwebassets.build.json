@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gmWPwTiXVgT0OUsQO+PAMImooBiXjYe6hpZryaQYub0=",
+  "Hash": "fImrlH8BRimUTLHYFAOQ+nKxE5krl8+DIJuA9q935g8=",
   "Source": "Otlobly",
   "BasePath": "_content/Otlobly",
   "Mode": "Default",
@@ -1212,6 +1212,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\css\\style.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
       "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\css\\StyleSheet.css",
