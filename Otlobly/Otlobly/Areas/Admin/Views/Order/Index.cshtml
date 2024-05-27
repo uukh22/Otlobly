@@ -57,7 +57,10 @@
                                 <td><a  asp-action="InPorcess" asp-route-id="@item.Id" class="btn btn-success btn-sm">In Process</a></td>
                                 <td><a  asp-action="Shipped" asp-route-id="@item.Id" class="btn btn-secondary btn-sm">Shipped</a></td>
                             }
-                            <td><a  asp-action="CalncelOrder" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Cancel Order</a></td>
+                            
+                                <td><a asp-action="CalncelOrder" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Cancel Order</a></td>
+                            
+                          
                         </tr>
                     }
                 </tbody>

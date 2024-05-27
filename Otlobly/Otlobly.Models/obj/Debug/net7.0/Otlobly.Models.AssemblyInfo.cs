@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Otlobly.Models")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51f14e68c80b4547bf8e02e6fea5760e445f41e0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+160c08e0e5a7a66b3fc54d46d93219fd2aed9e41")]
 [assembly: System.Reflection.AssemblyProductAttribute("Otlobly.Models")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Otlobly.Models")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
