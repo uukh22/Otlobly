@@ -2,60 +2,213 @@
 
 @{
     ViewData["Title"] = "Index";
+    Layout = null;
 }
 
 <!DOCTYPE html>
-<html>
-<style>
-
-    th {
-        text-align: center;
-    }
-</style>
+<html lang="en">
 <head>
-    <title>@ViewData["Title"]</title>
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="~/images/Logo Otlobly.png" type="">
+
+    <title>@ViewData["Title"] - Otlobly</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <!-- Font awesome style -->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link href="~/css/style1.css" rel="stylesheet" />
+    <style>
+        h1 {
+            text-align: center;
+            margin-bottom: 30px;
+            background-color: #007bff; /* Tomato color */
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            width: 100%;
+        }
+
+        .btn-create {
+            margin-bottom: 30px;
+            width: 100%;
+            background-color: #007bff; /* Updated button color */
+            color: white;
+        }
+
+        .btn {
+            border-radius: 50px;
+            margin: 5px;
+            display: inline-block; /* Display buttons inline */
+        }
+
+        .btn-primary {
+            background-color: #007bff;
+            border-color: #007bff;
+        }
+
+        .btn-info {
+            background-color: #17a2b8;
+            border-color: #17a2b8;
+        }
+
+        .btn-danger {
+            background-color: #dc3545;
+            border-color: #dc3545;
+        }
+
+            .btn-primary:hover, .btn-info:hover, .btn-danger:hover {
+                opacity: 0.8;
+            }
+
+        .table {
+            margin-top: 20px;
+        }
+
+            .table th, .table td {
+                vertical-align: middle;
+                text-align: center;
+                color: white; /* Change text color to white */
+            }
+
+            .table img {
+                border-radius: 10px;
+            }
+            h2{
+                color:wheat;
+            }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <h1>Index</h1>
-        <p>
-            <a asp-action="Create" class="btn btn-primary">Create New</a>
-        </p>
-        <div class="table-responsive">
-            <table class="table table-hover table-striped table-bordered" id="itemTable">
-                <thead class="table-dark">
-                    <tr>
-                        <th>Item</th>
-                        <th>Description</th>
-                        <th>Price</th>
-                        <th>Image</th>
-                        <th>Category</th>
-                        <th>Sub Category</th>
-                        <th>Actions</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    @foreach (var item in Model)
-                    {
-                        <tr>
-                            <td>@Html.DisplayFor(modelItem => item.Title)</td>
-                            <td>@Html.Raw(Html.Encode(item.Description).Replace("\n", "<br />"))</td>
-                            <td>@Html.DisplayFor(modelItem => item.price)</td>
-                            <td>
-                                <img src="@($"data:image/jpeg;base64,{Convert.ToBase64String(item.Image)}")" class="img-fluid img-thumbnail" alt="Responsive image">
-                            </td>
-                            <td>@Html.DisplayFor(modelItem => item.CategoryTitle)</td>
-                            <td>@Html.DisplayFor(modelItem => item.SubCategoryTitle)</td>
-                            <td>
-                                <a href="@Url.Action("Edit", new { id = item.Id })" class="btn btn-primary btn-sm">Edit</a>
-                                <a href="@Url.Action("Delete", new { id = item.Id })" class="btn btn-danger btn-sm">Delete</a>
-                            </td>
-                        </tr>
-                    }
-                </tbody>
-            </table>
+    <section class="hero_area">
+        <div class="bg-box">
+            <img src="~/images/hero-bg.jpg" alt="">
         </div>
-    </div>
+        <!-- header section starts -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="~/">
+                        <span>Otlobly</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Coupon" asp-action="Index">Coupon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Categories" asp-action="Index">Category</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="SubCatgories" asp-action="Index">SubCategories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Item" asp-action="Index">Item</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="User" asp-action="Index">Roles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+                            </li>
+                        </ul>
+                        <div class="user_option">
+                            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" class="form-inline">
+                                <button type="submit" class="order_online">Logout</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+       
+       
+        <section class="food_section layout_padding" id="ss">
+            <div class="container">
+                <div class="heading_container heading_center">
+                    <h2>Item List</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-6 mx-auto">
+                        <p>
+                            <a asp-action="Create" class="btn btn-create">
+                                <i class="fas fa-plus"></i>
+                                Create New
+                            </a>
+                        </p>
+                        <table class="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th>Item</th>
+                                    <th>Description</th>
+                                    <th>Price</th>
+                                    <th>Image</th>
+                                    <th>Category</th>
+                                    <th>Sub Category</th>
+                                    <th>Actions</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                @foreach (var item in Model)
+                                {
+                                    <tr>
+                                        <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.Description)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.price)</td>
+                                        <td>
+                                            @{
+                                                var base64 = Convert.ToBase64String(item.Image);
+                                                var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                                            }
+                                            <img src="@imgsrc" height="50" width="50" />
+                                        </td>
+                                        <td>@Html.DisplayFor(modelItem => item.CategoryTitle)</td>
+                                        <td>@Html.DisplayFor(modelItem => item.SubCategoryTitle)</td>
+                                        <td>
+                                            <td>
+                                            <div class="btn-group">
+                                                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-primary">
+                                                    <i class="fas fa-edit"></i> Edit
+                                                </a>
+                                                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                                                    <i class="fas fa-info-circle"></i> Details
+                                                </a>
+                                                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                                                    <i class="fas fa-trash-alt"></i> Delete
+                                                </a>
+                                            </div>
+                                        </td>
+                                    </tr>
+                                }
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
 
+    <script src="~/js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="~/js/bootstrap.js"></script>
+    <!-- custom js -->
+    <script src="~/js/custom.js"></script>
 </body>
 </html>
+

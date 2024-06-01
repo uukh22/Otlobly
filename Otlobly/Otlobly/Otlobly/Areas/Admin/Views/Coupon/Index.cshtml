@@ -1,0 +1,63 @@
+﻿@model IEnumerable<Otlobly.Models.Coupon>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+<style>
+
+    th {
+        text-align: center;
+    }
+</style>
+<body>
+    <div class="container">
+        <h1>Index</h1>
+        <p>
+            <a asp-action="Create" class="btn btn-primary">Create New</a>
+        </p>
+        <div class="table-responsive">
+            <table class="table table-hover table-striped table-bordered" id="itemTable">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Coupon Name</th>
+                        <th>Title</th>
+                        <th>Coupon Type</th>
+                        <th>Discount</th>
+                        <th>Minimum Amount</th>
+                        <th>Coupon Picture</th>
+                        <th>IsActive</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@Html.DisplayFor(modelItem => item.Coupon_Name)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Title)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Coupon_Type)</td>
+                            <td>@Html.DisplayFor(modelItem => item.Discount)</td>
+                            <td>@Html.DisplayFor(modelItem => item.MinimumAmount)</td>
+                            <td>
+                                @{
+                                    var base64 = Convert.ToBase64String(item.Coupon_Picture);
+                                    var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                                }
+                                <img src="@imgsrc" class="img-fluid img-thumbnail" height="50" width="50" />
+                            </td>
+                            <td>@Html.DisplayFor(modelItem => item.IsActive)</td>
+                            <td>
+                                <a href="@Url.Action("Edit", new { id = item.Coupon_Id })" class="btn btn-primary btn-sm">Edit</a> |
+                                <a href="@Url.Action("Delete", new { id = item.Coupon_Id })" class="btn btn-danger btn-sm">Delete</a>
+                            </td>
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+</body>
+</html>

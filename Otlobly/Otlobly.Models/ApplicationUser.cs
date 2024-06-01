@@ -7,10 +7,10 @@ namespace Otlobly.Models
     public class ApplicationUser : IdentityUser
     {
         public string Name { get; set; }
-        public string City { get; set; }
+        public string? City { get; set; }
         public string Password { get; set; }
-        public string Address { get; set; }
-        public string PostalCode { get; set; }
+        public string? Address { get; set; }
+        public string? PostalCode { get; set; }
         [Display(Name = "Image")]
         [DefaultValue("defult.png")]
       //  [Required(ErrorMessage = "Please select a profile picture .jpg , .jpeg , .png,  .gif ")]

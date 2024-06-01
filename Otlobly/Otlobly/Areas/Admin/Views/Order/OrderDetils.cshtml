@@ -4,7 +4,7 @@
 @{
     ViewData["Title"] = "OrderDetils";
 }
-<form method="post">
+<form  method="post">
     <input type="hidden" asp-for="orderHeader.Id" />
     <div class="container-sm">
         <div class="row">
@@ -103,6 +103,7 @@
                                         <strong>Total amount &nbsp; <span class="text-end ">@Model.orderHeader.OrderTotal</span></strong>
                                         <strong>
                                             USD
+
                                         </strong>
                                     </div>
                                     <span><strong></strong></span>
