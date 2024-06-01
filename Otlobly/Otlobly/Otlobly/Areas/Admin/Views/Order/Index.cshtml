@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Otlobly.Models.OrderHeader>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<!DOCTYPE html>
+<html>
+
+<body>
+    <div class="container">
+        <div class="row py-3">
+            <div class="col-md-6">
+                <h2 class="text-primary">List of Orders</h2>
+            </div>
+            <div class="col-md-6 text-md-end">
+                <a asp-controller="Order" asp-action="Index" asp-route-status="Pending" class="btn btn-primary">Pending</a>
+                <a asp-controller="Order" asp-action="Index" asp-route-status="Approved" class="btn btn-primary">Approved</a>
+                <a asp-controller="Order" asp-action="Index" asp-route-status="All" class="btn btn-primary">All</a>
+            </div>
+        </div>
+
+        <div class="table-responsive">
+            <table class="table table-hover table-striped table-bordered" id="itemTable">
+                <thead class="table-dark">
+                    <tr>
+                        <th>Name</th>
+                        <th>Phone</th>
+                        <th>Order Total</th>
+                        <th>Order Status</th>
+                        <th>Payment Status</th>
+                        <th>Date of Pick</th>
+                        <th>Date Order</th>
+                        <th>Details</th>
+                        @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                        {
+                            <th>Process</th>
+                            <th>Shipment</th>
+                        }
+                        <th>Cancel</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        <tr>
+                            <td>@item.Name</td>
+                            <td>@item.Phone</td>
+                            <td>@item.OrderTotal</td>
+                            <td>@item.OrderStatus</td>
+                            <td>@item.PaymentStatus</td>
+                            <td>@item.DateOfPick</td>
+                            <td>@item.OrderDate</td>
+                            <td><a asp-action="OrderDetils" asp-route-id="@item.Id" class="btn btn-info btn-sm">Order Details</a></td>
+                            @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                            {
+                                <td><a  asp-action="InPorcess" asp-route-id="@item.Id" class="btn btn-success btn-sm">In Process</a></td>
+                                <td><a  asp-action="Shipped" asp-route-id="@item.Id" class="btn btn-secondary btn-sm">Shipped</a></td>
+                            }
+                            
+                                <td><a asp-action="CalncelOrder" asp-route-id="@item.Id" class="btn btn-danger btn-sm">Cancel Order</a></td>
+                            
+                          
+                        </tr>
+                    }
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+   
+</body>
+</html>

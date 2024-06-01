@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Otlobly.Repository")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+77d3d7910483e5c3567be3c133f58a7ddcb16d45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("Otlobly.Repository")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Otlobly.Repository")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "nExHZy1mPIWW5AfIoXrgjKfENToO5UwWt6ud3VvXL+Y=",
+  "Hash": "fqKcuWw1G6z1/GBCwJJmYnQYSMa9hcjg35VqQWqKluM=",
   "Source": "Otlobly",
   "BasePath": "_content/Otlobly",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "Otlobly\\wwwroot",
       "Source": "Otlobly",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\css\\site.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\css\\site.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\css\\site.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\favicon.ico",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\favicon.ico",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\favicon.ico"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\js\\site.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\js\\site.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -71,13 +71,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\js\\site.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -90,13 +90,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -109,13 +109,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -128,13 +128,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -147,13 +147,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -166,13 +166,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -185,13 +185,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -204,13 +204,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -223,13 +223,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -242,13 +242,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -261,13 +261,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -280,13 +280,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -299,13 +299,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -318,13 +318,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -337,13 +337,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -356,13 +356,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -375,13 +375,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -394,13 +394,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -413,13 +413,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -432,13 +432,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -451,13 +451,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -470,13 +470,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -489,13 +489,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -508,13 +508,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -527,13 +527,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -546,13 +546,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -565,13 +565,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -584,13 +584,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -603,13 +603,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -622,13 +622,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -641,13 +641,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -660,13 +660,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -679,13 +679,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -698,13 +698,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -717,13 +717,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -736,13 +736,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -755,13 +755,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -774,13 +774,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -793,13 +793,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -812,13 +812,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -831,13 +831,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -850,13 +850,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -869,13 +869,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -888,13 +888,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -907,13 +907,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -926,13 +926,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -945,13 +945,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -964,13 +964,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -983,13 +983,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -1002,13 +1002,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -1021,13 +1021,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -1040,13 +1040,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -1059,13 +1059,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -1078,13 +1078,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -1097,13 +1097,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -1116,13 +1116,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -1135,13 +1135,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Microsoft.AspNetCore.Identity.UI",
       "SourceType": "Package",
-      "ContentRoot": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
+      "ContentRoot": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\",
       "BasePath": "Identity",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -1154,13 +1154,13 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+      "OriginalItemSpec": "C:\\Users\\LOGO\\.nuget\\packages\\microsoft.aspnetcore.identity.ui\\7.0.18\\staticwebassets\\V5\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Otlobly.styles.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Otlobly.styles.css",
       "SourceId": "Otlobly",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\bundle\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Otlobly.styles.css",
       "AssetKind": "All",
@@ -1173,13 +1173,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\MVC\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Otlobly.styles.css"
+      "OriginalItemSpec": "E:\\final\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\bundle\\Otlobly.styles.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Otlobly.bundle.scp.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Otlobly.bundle.scp.css",
       "SourceId": "Otlobly",
       "SourceType": "Computed",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Otlobly.bundle.scp.css",
       "AssetKind": "All",
@@ -1192,13 +1192,70 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "E:\\MVC\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Otlobly.bundle.scp.css"
+      "OriginalItemSpec": "E:\\final\\Otlobly\\Otlobly\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Otlobly.bundle.scp.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\css\\site.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\bootstrap.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/bootstrap.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\bootstrap.css"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\font-awesome.min.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/font-awesome.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\font-awesome.min.css"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\responsive.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/responsive.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\responsive.css"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\site.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1214,10 +1271,67 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\css\\style.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\site2.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/site2.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site2.css"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\site3.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/site3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site3.css"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\site4.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/site4.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\site4.css"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\style.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "css/style.css",
       "AssetKind": "All",
@@ -1233,10 +1347,67 @@
       "OriginalItemSpec": "wwwroot\\css\\style.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\css\\StyleSheet.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\style.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/style.css.map",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css.map"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\style.scss",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/style.scss",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.scss"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\style1.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "css/style1.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style1.css"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\css\\StyleSheet.css",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "css/StyleSheet.css",
       "AssetKind": "All",
@@ -1252,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\css\\StyleSheet.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\favicon.ico",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\favicon.ico",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1271,10 +1442,67 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\32e5e1f8-18e6-4d65-849e-ff6dd843612f_defualt.jpg",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\fonts\\fontawesome-webfont.ttf",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "fonts/fontawesome-webfont.ttf",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.ttf"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\fonts\\fontawesome-webfont.woff",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "fonts/fontawesome-webfont.woff",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\fonts\\fontawesome-webfont.woff2",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "fonts/fontawesome-webfont.woff2",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\fonts\\fontawesome-webfont.woff2"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\32e5e1f8-18e6-4d65-849e-ff6dd843612f_defualt.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/32e5e1f8-18e6-4d65-849e-ff6dd843612f_defualt.jpg",
       "AssetKind": "All",
@@ -1290,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\32e5e1f8-18e6-4d65-849e-ff6dd843612f_defualt.jpg"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\47276989-5b4f-42c0-b767-e6d726a3a369_AYM_1804.JPG",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\47276989-5b4f-42c0-b767-e6d726a3a369_AYM_1804.JPG",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/47276989-5b4f-42c0-b767-e6d726a3a369_AYM_1804.JPG",
       "AssetKind": "All",
@@ -1309,10 +1537,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\47276989-5b4f-42c0-b767-e6d726a3a369_AYM_1804.JPG"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\6a38c92e-1028-41f5-96a5-f12c9b7e0b63_IMG_5518.JPG",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\544750.jpg",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/544750.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\544750.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\6a38c92e-1028-41f5-96a5-f12c9b7e0b63_IMG_5518.JPG",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/6a38c92e-1028-41f5-96a5-f12c9b7e0b63_IMG_5518.JPG",
       "AssetKind": "All",
@@ -1328,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\6a38c92e-1028-41f5-96a5-f12c9b7e0b63_IMG_5518.JPG"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\7a0aa16e-4769-40d2-a801-d1a9f6bdd06d_erd.jpg",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\7a0aa16e-4769-40d2-a801-d1a9f6bdd06d_erd.jpg",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/7a0aa16e-4769-40d2-a801-d1a9f6bdd06d_erd.jpg",
       "AssetKind": "All",
@@ -1347,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\7a0aa16e-4769-40d2-a801-d1a9f6bdd06d_erd.jpg"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\7e061ac7-e25d-4c16-bb23-89c1afa40e55_IMG_1686.JPG",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\7e061ac7-e25d-4c16-bb23-89c1afa40e55_IMG_1686.JPG",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/7e061ac7-e25d-4c16-bb23-89c1afa40e55_IMG_1686.JPG",
       "AssetKind": "All",
@@ -1366,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\7e061ac7-e25d-4c16-bb23-89c1afa40e55_IMG_1686.JPG"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\9cb57c19-0823-494e-8efe-2ea942baadaa_IMG_5518.JPG",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\9cb57c19-0823-494e-8efe-2ea942baadaa_IMG_5518.JPG",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/9cb57c19-0823-494e-8efe-2ea942baadaa_IMG_5518.JPG",
       "AssetKind": "All",
@@ -1385,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\9cb57c19-0823-494e-8efe-2ea942baadaa_IMG_5518.JPG"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\aaf7d14c-8fce-42c7-9229-89434de9aa2d_defualt.jpg",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\aaf7d14c-8fce-42c7-9229-89434de9aa2d_defualt.jpg",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/aaf7d14c-8fce-42c7-9229-89434de9aa2d_defualt.jpg",
       "AssetKind": "All",
@@ -1404,10 +1651,29 @@
       "OriginalItemSpec": "wwwroot\\Images\\aaf7d14c-8fce-42c7-9229-89434de9aa2d_defualt.jpg"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\b01c914e-d029-4a13-a10b-e532bb958b43_ASCII-Table.svg.png",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\about-img.png",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/about-img.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\about-img.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\b01c914e-d029-4a13-a10b-e532bb958b43_ASCII-Table.svg.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/b01c914e-d029-4a13-a10b-e532bb958b43_ASCII-Table.svg.png",
       "AssetKind": "All",
@@ -1423,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\Images\\b01c914e-d029-4a13-a10b-e532bb958b43_ASCII-Table.svg.png"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\b201b38a-e62f-4fd4-a07b-daac9f197e9a_38_Presentation.pptx",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\b201b38a-e62f-4fd4-a07b-daac9f197e9a_38_Presentation.pptx",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/b201b38a-e62f-4fd4-a07b-daac9f197e9a_38_Presentation.pptx",
       "AssetKind": "All",
@@ -1442,10 +1708,48 @@
       "OriginalItemSpec": "wwwroot\\Images\\b201b38a-e62f-4fd4-a07b-daac9f197e9a_38_Presentation.pptx"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\cc615028-3c5c-4a69-9e44-b42a39753f1d_defualt.jpg",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\bg.jpg",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\bg.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\c4d943ce-48d4-4470-bd3b-5fd73b33e0d3_94.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/c4d943ce-48d4-4470-bd3b-5fd73b33e0d3_94.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\c4d943ce-48d4-4470-bd3b-5fd73b33e0d3_94.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\cc615028-3c5c-4a69-9e44-b42a39753f1d_defualt.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/cc615028-3c5c-4a69-9e44-b42a39753f1d_defualt.jpg",
       "AssetKind": "All",
@@ -1461,10 +1765,48 @@
       "OriginalItemSpec": "wwwroot\\Images\\cc615028-3c5c-4a69-9e44-b42a39753f1d_defualt.jpg"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\ebf17dc5-ff88-4aa0-bbfb-8fd9ed5c97e9_WhatsApp Image 2023-11-16 at 13.22.03_de01314e.jpg",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\client1.jpg",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/client1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\client1.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\client2.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/client2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\client2.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\ebf17dc5-ff88-4aa0-bbfb-8fd9ed5c97e9_WhatsApp Image 2023-11-16 at 13.22.03_de01314e.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/ebf17dc5-ff88-4aa0-bbfb-8fd9ed5c97e9_WhatsApp Image 2023-11-16 at 13.22.03_de01314e.jpg",
       "AssetKind": "All",
@@ -1480,10 +1822,200 @@
       "OriginalItemSpec": "wwwroot\\Images\\ebf17dc5-ff88-4aa0-bbfb-8fd9ed5c97e9_WhatsApp Image 2023-11-16 at 13.22.03_de01314e.jpg"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\fbdf2f9a-2640-4034-8c89-3c9d234d88ae_defualt.jpg",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f1.png",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f1.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f1.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f2.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f2.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f2.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f3.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f3.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f3.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f4.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f4.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f4.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f5.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f5.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f5.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f6.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f6.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f6.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f7.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f7.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f7.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f8.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f8.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f8.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\f9.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/f9.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\f9.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\favicon.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/favicon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\favicon.png"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\fbdf2f9a-2640-4034-8c89-3c9d234d88ae_defualt.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/fbdf2f9a-2640-4034-8c89-3c9d234d88ae_defualt.jpg",
       "AssetKind": "All",
@@ -1499,10 +2031,48 @@
       "OriginalItemSpec": "wwwroot\\Images\\fbdf2f9a-2640-4034-8c89-3c9d234d88ae_defualt.jpg"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\Images\\Logo Otlobly.png",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\hero-bg.jpg",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/hero-bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\hero-bg.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\images\\bg.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/images/bg.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\images\\bg.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\Logo Otlobly.png",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "Images/Logo Otlobly.png",
       "AssetKind": "All",
@@ -1518,10 +2088,105 @@
       "OriginalItemSpec": "wwwroot\\Images\\Logo Otlobly.png"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\js\\site.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\o1.jpg",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/o1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\o1.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\Images\\o2.jpg",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "Images/o2.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\o2.jpg"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\js\\bootstrap.js",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "js/bootstrap.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\js\\custom.js",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "js/custom.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\custom.js"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
+      "BasePath": "_content/Otlobly",
+      "RelativePath": "js/jquery-3.4.1.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\js\\jquery-3.4.1.min.js"
+    },
+    {
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\js\\site.js",
+      "SourceId": "Otlobly",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1537,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1556,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1575,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1594,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1613,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1632,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1651,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1670,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1689,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1708,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1727,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1746,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1765,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1784,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1803,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1822,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1841,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1860,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1879,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1898,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1917,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1936,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1955,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1974,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1993,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2012,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2031,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2050,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2069,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2088,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2107,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2126,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2145,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2164,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2183,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2202,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2221,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2240,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2259,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2278,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2297,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2316,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2335,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2354,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2373,10 +3038,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2392,10 +3057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2411,10 +3076,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2430,10 +3095,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2449,10 +3114,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2468,10 +3133,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2487,10 +3152,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2506,10 +3171,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2525,10 +3190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2544,10 +3209,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2563,10 +3228,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2582,10 +3247,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2601,10 +3266,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "Otlobly",
       "SourceType": "Discovered",
-      "ContentRoot": "E:\\MVC\\Otlobly\\Otlobly\\wwwroot\\",
+      "ContentRoot": "E:\\final\\Otlobly\\Otlobly\\wwwroot\\",
       "BasePath": "_content/Otlobly",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

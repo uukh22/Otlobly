@@ -24,7 +24,7 @@ namespace Otlobly.Repository
         {
             try
             {
-                if (_context.Database.GetPendingMigrations().Count() > 0)
+                if (_context.Database.GetPendingMigrations().Any())
                 {
                     _context.Database.Migrate();
                 }

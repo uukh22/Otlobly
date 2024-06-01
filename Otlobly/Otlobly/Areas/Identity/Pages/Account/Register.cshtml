@@ -4,60 +4,77 @@
     ViewData["Title"] = "Register";
 }
 
-<h1 class="text-center">@ViewData["Title"]</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewData["Title"]</title>
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/css/site4.css">
+</head>
+<body class="img" style="background-image:url(../../../../wwwroot/Images/bg.jpg);">
+    <section class="ftco-section">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-md-6 text-center mb-5">
+                    <h2 class="heading-section">@ViewData["Title"]</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-7 col-lg-5">
+                    <div class="login-wrap">
+                        <h3 class="text-center mb-4">Create Your Account</h3>
+                        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data" class="signup-form">
+                            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.Name">Full Name</label>
+                                <input asp-for="Input.Name" class="form-control" placeholder="John Doe">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.Email">Email Address</label>
+                                <input asp-for="Input.Email" class="form-control" placeholder="johndoe@gmail.com">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.Password">Password</label>
+                                <input asp-for="Input.Password" id="password" type="password" class="form-control" placeholder="Password">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.ConfirmPassword">Confirm Password</label>
+                                <input asp-for="Input.ConfirmPassword" id="password-confirm" type="password" class="form-control" placeholder="Confirm Password">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.City">City</label>
+                                <input asp-for="Input.City" class="form-control" placeholder="City">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.Address">Address</label>
+                                <textarea asp-for="Input.Address" class="form-control" placeholder="Address"></textarea>
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.PostalCode">Postal Code</label>
+                                <input asp-for="Input.PostalCode" class="form-control" placeholder="Postal Code">
+                            </div>
+                            <div class="form-group mb-3">
+                                <label class="label" asp-for="Input.ProfilePicture" class="control-label">Profile Picture</label>
+                                <input asp-for="Input.ProfilePicture" type="file" class="form-control" accept=".jpg,.jpeg,.png,.gif" />
+                                <span asp-validation-for="Input.ProfilePicture" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <button type="submit" class="form-control btn btn-primary submit px-3">Register</button>
+                            </div>
+                        </form>
+                        <p>I'm already a member! <a data-toggle="tab" href="@Url.Page("./Login", new { ReturnUrl = Model.ReturnUrl })">Sign In</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-<div class="row justify-content-center">
-    <div class="col-md-6">
-        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" enctype="multipart/form-data" >
-            <h2 class="text-center">Create a new account.</h2>
-            <hr />
-            <div asp-validation-summary="ModelOnly" class="text-danger" role="alert"></div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Name" class="form-control" autocomplete="username" aria-required="true" placeholder="Name" />
-                <label asp-for="Input.Name">Name</label>
-                <span asp-validation-for="Input.Name" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" placeholder="name@example.com" />
-                <label asp-for="Input.Email">Email</label>
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                <label asp-for="Input.Password">Password</label>
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" placeholder="password" />
-                <label asp-for="Input.ConfirmPassword"></label>
-                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.City" class="form-control" aria-required="true" placeholder="City" />
-                <label asp-for="Input.City"></label>
-                <span asp-validation-for="Input.City" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <textarea asp-for="Input.Address" class="form-control" aria-required="true" placeholder="Address"></textarea>
-                <label asp-for="Input.Address"></label>
-                <span asp-validation-for="Input.Address" class="text-danger"></span>
-            </div>
-            <div class="form-floating mb-3">
-                <input asp-for="Input.PostalCode" class="form-control" aria-required="true" placeholder="Postal Code" />
-                <label asp-for="Input.PostalCode"></label>
-                <span asp-validation-for="Input.Address" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-            <label asp-for="Input.ProfilePicture" class="control-label"></label>
-                <input asp-for="Input.ProfilePicture" type="file" class="form-control" accept=".jpg,.jpeg,.png,.gif" />
-            <span asp-validation-for="Input.ProfilePicture" class="text-danger"></span>
-            </div> 
-            <br />
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Register</button>
-        </form>
-    </div>
-</div>
-
-@section Scripts {
-    <partial name="_ValidationScriptsPartial" />
-}
+    <script src="js/jquery.min.js"></script>
+    <script src="js/popper.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

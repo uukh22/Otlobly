@@ -1,0 +1,152 @@
+﻿@using Otlobly.Utility;
+@model Otlobly.ViewModels.OrderDetilsViewModel
+
+@{
+    ViewData["Title"] = "OrderDetils";
+}
+<form method="post">
+    <input type="hidden" asp-for="orderHeader.Id" />
+    <div class="container-sm">
+        <div class="row">
+            <div class="col-6">
+                <h2>Pickup Detils</h2>
+                <div class="row mb-3">
+                    @if(User.IsInRole("Admin")||User.IsInRole("Manager"))
+                    {
+                        <label asp-for="orderHeader.Name">Name</label>
+                        <input asp-for="orderHeader.Name" class="form-control" />
+                        <span asp-validation-for="orderHeader.Name" class="text-danger"></span>
+                    }
+                    else
+                    {
+                        <label asp-for="orderHeader.Name">Name</label>
+                        <input readonly asp-for="orderHeader.Name" class=" form-control" />
+                    }
+                </div>
+                <div class="row mb-3">
+                    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                    {
+                        <label asp-for="orderHeader.Phone">Phone</label>
+                        <input asp-for="orderHeader.Phone" class="form-control" />
+                        <span asp-validation-for="orderHeader.Phone" class="text-danger"></span>
+                    }
+                    else
+                    {
+                        <label asp-for="orderHeader.Phone">Phone</label>
+                        <input readonly asp-for="orderHeader.Phone" class=" form-control" />
+                    }
+
+                </div>
+                <div class="row mb-3">
+                    <label asp-for="orderHeader.ApplicationUser.Email">Email</label>
+                    <input readonly asp-for="orderHeader.ApplicationUser.Email" class="form-control"/>
+                </div>
+                <div class="row mb-3">
+                    <label asp-for="orderHeader.OrderDate">Order Date</label>
+                    <input readonly value="@Model.orderHeader.OrderDate.ToShortDateString()" class="form-control" />
+
+                </div>
+                <div class="row mb-3">
+                    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                    {
+                        <label asp-for="orderHeader.SessionId"></label>
+                        <input readonly asp-for="orderHeader.SessionId" class="form-control" />
+
+                        <label asp-for="orderHeader.Trans_Id">Payment Intent Id</label>
+                        <input readonly asp-for="orderHeader.Trans_Id" class="form-control"/>
+                    }
+                </div>
+                <div class="row mb-3" >
+                 @if(Model.orderHeader.SessionId!=null)
+                    {
+                       <div class="row mb-3">
+                            <label asp-for="orderHeader.DateOfPick">Payment Date</label>
+                            <input readonly value="@Model.orderHeader.DateOfPick.ToShortDateString()" class="form-control" />
+                       </div>
+                    }
+                    <div class="row mb-3">
+                        <label asp-for="orderHeader.PaymentStatus">Payment Status</label>
+                        <input readonly asp-for="orderHeader.PaymentStatus" class="form-control" />
+                    </div>
+
+                </div>
+                
+                    @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                    {
+                    <div class="row mb-3">
+                        <button type="submit" class="btn btn-primary">Update Order</button>
+                    </div>
+                    }
+               
+            </div>
+            <div class="col-6">
+                <div class="mb-4">
+                    <div class="card-header mb-4">
+                        <div class="card-header py-3">
+                            <h5 class="mb-0">
+                                Order Summery -@Model.orderHeader.OrderStatus
+                            </h5>
+                        </div>
+                        <div class="card-body">
+                            <ul class="list-group-  list-group-flush">
+                                @foreach(var order in Model.orderDetails)
+                                {
+                                    <li class="list-group-item d-flex justify-content-between align-items-center border-0">
+                                        <span>@order.Item.Title</span>
+                                        <span>QTY:@order.count</span>
+                                        <span>Price:  @order.Price</span>
+                                        <div class="text-end">@((order.count*order.Price))</div>
+                                    </li>
+                                }
+                                <li class="list-group-item d-flex justify-content-between align-items-center"> 
+                                    <div>
+                                        <strong>Total amount &nbsp; <span class="text-end ">@Model.orderHeader.OrderTotal</span></strong>
+                                        <strong>
+                                            USD
+                                        </strong>
+                                    </div>
+                                    <span><strong></strong></span>
+                                </li>
+                            </ul>
+                        </div>
+                        @if(User.IsInRole("Admin") || User.IsInRole("Manager"))
+                        {
+                            if(Model.orderHeader.OrderStatus == orderStatus.StatusApproved)
+                            {
+                                <button asp-action="InProcess" type="submit" class="btn btn-info">
+                                    Start Processing
+                                </button>
+                            }
+                            if (Model.orderHeader.OrderStatus == orderStatus.StatusUnderProcessing)
+                            {
+                                <button asp-action="Shipping" type="submit" onclick="return ValidityState" class="btn btn-info">
+                                    Ship Order
+                                </button>
+                            }
+                            if (Model.orderHeader.OrderStatus != orderStatus.StatusRefund
+                            && Model.orderHeader.OrderStatus!=orderStatus.StatusCancelled)
+                            {
+                                <button asp-action="CanselOrder" type="submit"  class="btn btn-info">
+                                    Ship Order
+                                </button>
+                            }
+                        }
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</form>
+
+<h1>OrderDetils</h1>
+
+<div>
+    <h4>OrderDetilsViewModel</h4>
+    <hr />
+    <dl class="row">
+    </dl>
+</div>
+<div>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.orderHeader.Id }) |
+    <a asp-action="Index">Back to List</a>
+</div>

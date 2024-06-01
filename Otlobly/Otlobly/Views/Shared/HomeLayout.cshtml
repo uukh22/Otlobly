@@ -1,75 +1,323 @@
 ﻿@using Microsoft.AspNetCore.Identity
-
 @inject SignInManager<ApplicationUser> SignInManager
 @inject UserManager<ApplicationUser> UserManager
+@model Otlobly.ViewModels.ItemViewModel
+ 
+
+
+@{
+    Layout = null;
+}
 
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
+    <!-- Basic -->
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="images/Logo Otlobly.png" type="">
+
     <title>Otlobly</title>
-    <link rel="stylesheet" href="~/css/StyleSheet.css" />
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <!-- Owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- Nice select -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+    <!-- Font awesome style -->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/css/style1.css" rel="stylesheet" />
+    <!-- Responsive style -->
+    <link href="~/css/responsive.css" rel="stylesheet" />
 </head>
+
 <body>
-    <header>
-        <div class="menu">
-            <nav>
-                <input type="checkbox" id="check" />
-                <label for="check" class="checkbtn">
-                    <ion-icon name="grid-outline"></ion-icon>
-                </label>
-                <label class="logo">Otlobly</label>
-                <ul>
-                    <ul>
-                        <li><a asp-area="" asp-controller="Home" asp-action="Index" class="active">Home</a></li>
-                        <li><a asp-area="Customer" asp-controller="Home" asp-action="Index">Menu</a></li>
-                        @if (!SignInManager.IsSignedIn(User))
-                        {
-                            <li><a asp-area="Identity" asp-controller="Account" asp-action="Register">Register</a></li>
-                            <li><a href="/Identity/Account/Login">Login</a></li>
-                        }
-                       else
-                        {
-                            <li >
-                                <a id="manage" class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
-                            </li>
-                            <li >
-                                <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                                    <button type="submit">Logout</button>
-                                </form>
-                            </li>
-                        }
-                    </ul>
-                </ul>
-            </nav>
+    <div class="hero_area">
+        <div class="bg-box">
+            <img src="images/hero-bg.jpg" alt="">
         </div>
-    </header>
-    <div>
-        <main role="main" class="pb-3">
+        <!-- header section starts -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="index.html">
+                        <span>Otlobly</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+                            </li>
+                        </ul>
+                        <div class="user_option">
+                            @if (!SignInManager.IsSignedIn(User))
+                            {
+                                <a asp-area="Identity" asp-controller="Account" asp-action="Register" class="order_online">Register</a>
+                                <a href="/Identity/Account/Login" class="order_online">Login</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link text-dark order_online" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                    <i class="fa fa-shopping-cart"></i> @await Component.InvokeAsync("Cart")
+                                </a>
+                                <a id="manage" class="nav-link text-dark order_online" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">Hello @UserManager.GetUserName(User)!</a>
+                                <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" class="form-inline">
+                                    <button type="submit" class="order_online">Logout</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+      
+        <div class="container">
             @RenderBody()
-        </main>
+        </div>
     </div>
 
-  <script>
-        window.onclick = function (event) {
-            if (!event.target.matches('.dropdown-btn')) {
-                var dropdowns = document.getElementsByClassName("dropdown-content");
-                for (var i = 0; i < dropdowns.length; i++) {
-                    var openDropdown = dropdowns[i];
-                    if (openDropdown.style.display === "block") {
-                        openDropdown.style.display = "none";
+    
+    <section class="offer_section layout_padding-bottom">
+        <div class="offer_container">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/o1.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>Tasty Thursdays</h5>
+                                <h6><span>20%</span> Off</h6>
+                                <a href="">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="box">
+                            <div class="img-box">
+                                <img src="images/o2.jpg" alt="">
+                            </div>
+                            <div class="detail-box">
+                                <h5>Pizza Days</h5>
+                                <h6><span>15%</span> Off</h6>
+                                <a href="">Order Now</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- food section -->
+    <section class="food_section layout_padding content_section">
+        <div class="container">
+            <div class="heading_container heading_center">
+                <h2>Our Menu</h2>
+            </div>
+            <ul class="filters_menu">
+                <li class="active" data-filter="all">All</li>
+                @if (Model != null && Model.Categories != null)
+                {
+                    foreach (var cat in Model.Categories)
+                    {
+                        <li data-filter="@cat.Title">@cat.Title</li>
                     }
                 }
-            }
-        }
-</script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="~/lib/jquery/dist/jquery.min.js"></script>
-    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+            </ul>
+            <div class="filters-content">
+                <div class="row grid">
+                    @if (Model != null && Model.Items != null)
+                    {
+                        foreach (var item in Model.Items)
+                        {
+                            <div class="col-sm-6 col-lg-4 all @item.Category.Title">
+                                <div class="box">
+                                    <div>
+                                        <div class="img-box">
+                                            @{
+                                                var base64 = Convert.ToBase64String(item.Image);
+                                                var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                                            }
+                                            <img src="@imgsrc" alt="@item.Title">
+                                        </div>
+                                        <div class="detail-box">
+                                            <h5>@item.Title</h5>
+                                            <p>@item.Description</p>
+                                            <div class="options">
+                                                <h6>@item.Price</h6>
+                                                <form method="post" asp-action="Index" asp-controller="Cart">
+                                                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                                                        <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve" class="svg-icon">
+                                                        <g>
+                                                        <g>
+                                                        <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248 c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z"></path>
+                                    </g>
+                                </g>
+                                                        <g>
+                                                        <g>
+                                                        <path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48 C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064 c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4 C457.728,97.71,450.56,86.958,439.296,84.91z"></path>
+                                    </g>
+                                </g>
+                                                        <g>
+                                                        <g>
+                                                        <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296 c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z"></path>
+                                    </g>
+                                </g>
+                            </svg>
+                                                    </a>
+                                                </form>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        }
+                    }
+                </div>
+            </div>
+            <div class="btn-box">
+                <a href="#">View More</a>
+            </div>
+        </div>
+    </section>
+    <!-- end food section -->
+    <!-- about section -->
+    <section class="about_section layout_padding">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="img-box">
+                        <img src="images/about-img.png" alt="">
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="detail-box">
+                        <div class="heading_container">
+                            <h2>We Are Feane</h2>
+                        </div>
+                        <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable. If you are going to use a passage of Lorem Ipsum, you need to be sure there isn't anything embarrassing hidden in the middle of text.</p>
+                        <a href="">Read More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end about section -->
+    <!-- footer section -->
+    <footer class="footer_section">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 footer-col">
+                    <div class="footer_contact">
+                        <h4>Contact Us</h4>
+                        <div class="contact_link_box">
+                            <a href="">
+                                <i class="fa fa-map-marker" aria-hidden="true"></i>
+                                <span>Location</span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-phone" aria-hidden="true"></i>
+                                <span>Call +01 1234567890</span>
+                            </a>
+                            <a href="">
+                                <i class="fa fa-envelope" aria-hidden="true"></i>
+                                <span>demo@gmail.com</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <div class="footer_detail">
+                        <a href="index.html" class="footer-logo">Feane</a>
+                        <p>Necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 footer-col">
+                    <div class="footer_social">
+                        <h4>Follow Us</h4>
+                        <div class="social_link">
+                            <a href=""><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-pinterest" aria-hidden="true"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-info">
+                <p>&copy; <span id="displayYear"></span> All Rights Reserved By <a href="https://html.design/">Free Html Templates</a><br>&copy; <span id="displayYear"></span> Distributed By <a href="https://themewagon.com/" target="_blank">ThemeWagon</a></p>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer section -->
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-7hZhL8psUnO7dzZB0GlJFnxP4GZWTkXdaNE4fJ0RFVVh5FjfjSFXej+KfZHKPzthMyVckKX3XpD53p9aZB3Czw==" crossorigin="anonymous"></script>
+    <!-- bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.min.js" integrity="sha512-QiGr9Gc4+Xn/hKPjoOq1ilf7Bv5K3+RE+Gbi2xEVHL0o/snh6KtlgCiv6DfTm5xTQ8pB8YCG47ML52I8CBwWJw==" crossorigin="anonymous"></script>
+    <!-- owl slider -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <!-- custom js -->
+    <script src="~/js/custom.js"></script>
+    <!-- Google Map -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=myMap"></script>
+    <!-- End Google Map -->
+    @RenderSection("Scripts", required: false)
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const filtersMenu = document.querySelector(".filters_menu");
+            const gridItems = document.querySelectorAll(".grid .col-sm-6");
 
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    @await RenderSectionAsync("Scripts", required: false)
+            filtersMenu.addEventListener("click", function (event) {
+                if (event.target.tagName === "LI") {
+                    const category = event.target.dataset.filter;
+
+                    // Toggle active class
+                    filtersMenu.querySelectorAll("li").forEach(function (li) {
+                        li.classList.remove("active");
+                    });
+                    event.target.classList.add("active");
+
+                    // Toggle item visibility based on category
+                    gridItems.forEach(function (item) {
+                        const itemCategory = Array.from(item.classList);
+                        console.log("Category:", category);
+                        console.log("Item Category:", itemCategory);
+                        if (category === "all" || itemCategory.includes(category)) {
+                            item.style.display = "block";
+                        } else {
+                            item.style.display = "none";
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 </body>
+
 </html>

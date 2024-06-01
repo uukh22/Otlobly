@@ -1,102 +1,268 @@
-﻿@model Otlobly.Models.Cart
+﻿@using Microsoft.AspNetCore.Identity
 
-@{
-    ViewData["Title"] = "Details";
-}
-
-<h1>Product Details</h1>
-
-<div class="col-4">
-    @{
-        var base64 = Convert.ToBase64String(Model.Item.Image);
-        var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
-    }
-    <img src="@imgsrc" height="200" width="200" />
-   
-</div>
-
-<form asp-action="Details" method="post">
-    <div class="row">
-        <input type="hidden" asp-for="Item_Id" />
-        <input type="hidden" asp-for="Id" />
-    </div>
-    <div class="col-8">
-        <div class="row">
-            <label asp-for="Item.Title">Product Name : @Model.Item.Title</label>
-        </div>
-        <div class="row">
-            <label asp-for="Item.Description">Item Description : @Html.Raw(Model.Item.Description)</label>
-        </div>
-        <div class="row">
-            <label asp-for="Item.Price">Item Price : @Model.Item.Price.ToString() </label>
-        </div>
-        <div class="row">
-            <label asp-for="Item.Category.Id">Item Category : @Model.Item.Category.Title</label>
-        </div>
-        <div class="row">
-            <label asp-for="Item.Category.Id">Item Sub Category : @Model.Item.SubCategory.Title</label>
-        </div>
-        <div class="row">
-            <label asp-for="count">Count</label>
-            <input asp-for="count" /><br />
-        </div>
-        <div class="row">
-           @*  <a asp-action="Index" asp-controller="Cart" class="btn btn-primary">Add to Cart</a><br /> *@
-            <button type="submit" class="btn btn-primary">Add to Cart</button>
-        </div>
-    </div>
-</form>
-
-@* 
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
 @model Otlobly.Models.Cart
 
 @{
-    ViewData["Title"] = "Details";
+    ViewData["Title"] = "Product Details";
+    Layout = null;
+}
+@{
+    ViewData["Title"] = "Product Details";
+    Layout = null;
 }
 
-<h1>Product Details</h1>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="~/images/Logo Otlobly.png" type="">
 
-@if (ViewContext.HttpContext.Request.Method == "GET")
-{
-    <form method="post">
-        <div class="row">
-            <div class="col-4">
-                <img src="@Model.Item.Image" width="200" height="200" />
-                <input type="hidden" asp-for="Item_Id" />
-            </div>
+    <title>@ViewData["Title"] - Otlobly</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <!-- Owl slider stylesheet -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <!-- Nice select -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+    <!-- Font awesome style -->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/css/style1.css" rel="stylesheet" />
+    <!-- Responsive style -->
+    <link href="~/css/responsive.css" rel="stylesheet" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS0zKQAXLv/a8kc9zBO1BM3n5VY5H13UyjAVC+fAC+e+0x/8w44b" crossorigin="anonymous">
+    <!-- Add this line in your HTML head section -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        /* Styles for the entire page */
+        /* Change background color of the box */
+        .box {
+            background-color: #6c757d;
+            background-color: #222831;
+            border: 1px solid #6c757d;
+            border-radius: 10px;
+            padding: 20px;
+            margin-bottom: 20px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .row.d-flex.justify-content-between.align-items-center {
+            background-color: #222831;
+        }
+
+        .food_section .box .img-box {
+            background-color: #222831;
+        }
+
+        h2 {
+            color: wheat;
+        }
+
+        /* Enlarge the image */
+        .img-box img {
+            width: 100%; /* Take up full width of container */
+            height: auto; /* Maintain aspect ratio */
+            border-radius: 10px; /* Rounded corners */
+        }
+
+        #magedo {
+            background-color: #222831;
+        }
+
+        .product-image {
+            text-align: center;
+        }
+
+        .product-details {
+            padding: 20px;
+            color: white; /* Set text color to white */
+        }
+
+            .product-details form {
+                margin-top: 20px;
+            }
+
+                .product-details form label {
+                    font-weight: bold;
+                    color: white; /* Set text color to white */
+                }
+
+                .product-details form span {
+                    display: inline-block;
+                    margin-bottom: 10px;
+                    color: white; /* Set text color to white */
+                }
+
+                .product-details form .form-group {
+                    margin-bottom: 15px;
+                }
+
+    </style>
+
+</head>
+
+<body>
+    <section class="hero_area">
+        <div class="bg-box">
+            <img src="~/images/hero-bg.jpg" alt="">
         </div>
-        <div class="col-8">
-            <div class="row">
-                <label asp-for="Item.Title">Product Name : @Model.Item.Title</label>
+        <!-- header section starts -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="~/">
+                        <span>Otlobly</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Menu</a>
+                            </li>
+                            <li class="nav-item" asp-area="Admin" asp-controller="Order" asp-action="Index">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Order</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">cart</a>
+                            </li>
+                        </ul>
+                        <div class="user_option">
+                            @if (!SignInManager.IsSignedIn(User))
+                            {
+                                <a asp-area="Identity" asp-controller="Account" asp-action="Register" class="order_online">Register</a>
+                                <a href="/Identity/Account/Login" class="order_online">Login</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link text-dark order_online" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                    <i class="fa fa-shopping-cart"></i> @await Component.InvokeAsync("Cart")
+                                </a>
+
+                                <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" class="form-inline">
+                                    <button type="submit" class="order_online">Logout</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </nav>
             </div>
-            <div class="row">
-                <label asp-for="Item.Description">Item Description : @Html.Raw(Model.Item.Description)</label>
+        </header>
+        <!-- end header section -->
+        <!-- main content section starts -->
+        <style>
+            .input-group-sm .form-control {
+                width: 70px; /* تقليل عرض الحقل */
+            }
+        </style>
+
+        <section class="food_section layout_padding">
+            <div class="container">
+                <div class="heading_container heading_center">
+                    <h2>Product Details</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 product-image">
+                        @{
+                            var base64 = Convert.ToBase64String(Model.Item.Image);
+                            var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                        }
+                        <img src="@imgsrc" class="img-fluid rounded-3" alt="Item Image" />
+                    </div>
+                    <div class="col-md-8 product-details">
+                        <form asp-action="Details" method="post">
+                            <input type="hidden" asp-for="Item_Id" />
+                            <input type="hidden" asp-for="Id" />
+
+                            <div class="form-group">
+                                <label for="title">Product Title:</label>
+                                <p>@Model.Item.Title</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="description">Product Description:</label>
+                                <p>@Html.Raw(Model.Item.Description)</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="price">Product Price:</label>
+                                <p>@Model.Item.Price.ToString()</p>
+                            </div>
+                            <div class="form-group">
+                                <label for="count">Count:</label>
+                                <div class="col">
+                                    <div class="input-group input-group-sm">
+                                        <div class="input-group-prepend">
+                                            <button type="button" class="btn btn-outline-secondary rounded-0" onclick="decreaseCount()">
+                                                <i class="fas fa-minus"></i>
+                                            </button>
+                                        </div>
+                                        <input id="count" name="count" type="number" class="form-control text-center small-input" value="1" />
+                                        <div class="input-group-append">
+                                            <button type="button" class="btn btn-outline-secondary rounded-0" onclick="increaseCount()">
+                                                <i class="fas fa-plus"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="col-md-4 mt-md-0 mt-3">
+                              
+                                <div class="d-flex justify-content-end">
+                                    <button type="submit" class="btn btn-primary mr-2">Add to Cart</button>
+                                    <a asp-action="Index" class="btn btn-secondary">Back</a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            <div class="row">
-                <label asp-for="Item.Price">Item Price : @Model.Item.Price.ToString() </label>
-            </div>
-            <div class="row">
-                <label asp-for="Item.Category.Id">Item Category : @Model.Item.Category.Title</label>
-            </div>
-            <div class="row">
-                <label asp-for="Item.Category.Id">Item Sub Category : @Model.Item.SubCategory.Title</label>
-            </div>
-            <div class="row">
-                <label asp-for="count">Count</label>
-                <input asp-for="count" /><br />
-            </div>
-            <div class="row">
-                <button type="submit" class="btn btn-primary">Add to Cart</button>
-            </div>
-        </div>
-    </form>
-}
-else if (ViewContext.HttpContext.Request.Method == "POST")
-{
-    <div class="row">
-        <div class="col-12">
-            <p>Item added to cart successfully.</p>
-            <!-- You can add any additional message or redirect the user here -->
-        </div>
-    </div>
-} *@
+        </section>
+
+        <script>
+            function increaseCount() {
+                var countElement = document.getElementById("count");
+                countElement.value = parseInt(countElement.value) + 1;
+            }
+
+            function decreaseCount() {
+                var countElement = document.getElementById("count");
+                if (parseInt(countElement.value) > 1) {
+                    countElement.value = parseInt(countElement.value) - 1;
+                }
+            }
+        </script>
+
+
+
+
+
+
+
+
+
+
+    <script src="~/js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="~/js/bootstrap.js"></script>
+    <!-- custom js -->
+    <script src="~/js/custom.js"></script>
+</body>
+</html>
+

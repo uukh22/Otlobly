@@ -76,3 +76,14 @@ E:\MVC\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.dll
 E:\MVC\Otlobly\Otlobly.Services\obj\Debug\net7.0\refint\Otlobly.Services.dll
 E:\MVC\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.pdb
 E:\MVC\Otlobly\Otlobly.Services\obj\Debug\net7.0\ref\Otlobly.Services.dll
+E:\final\Otlobly\Otlobly.Services\bin\Debug\net7.0\Otlobly.Services.deps.json
+E:\final\Otlobly\Otlobly.Services\bin\Debug\net7.0\Otlobly.Services.dll
+E:\final\Otlobly\Otlobly.Services\bin\Debug\net7.0\Otlobly.Services.pdb
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.GeneratedMSBuildEditorConfig.editorconfig
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.AssemblyInfoInputs.cache
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.AssemblyInfo.cs
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.csproj.CoreCompileInputs.cache
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.dll
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\refint\Otlobly.Services.dll
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\Otlobly.Services.pdb
+E:\final\Otlobly\Otlobly.Services\obj\Debug\net7.0\ref\Otlobly.Services.dll

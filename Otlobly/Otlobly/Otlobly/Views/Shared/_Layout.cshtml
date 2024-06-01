@@ -1,0 +1,99 @@
+﻿@{
+    ViewData["Title"] = "Otlobly";
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>@ViewData["Title"]</title>
+    <environment include="Development">
+        <link rel="icon" type="image/svg" href="~/Images/Logo Otlobly.png">
+
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+        <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+        <link rel="stylesheet" href="~/Otlobly.styles.css" asp-append-version="true" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+        <!-- DataTables CSS -->
+        <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+    </environment>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Otlobly</a>
+                <button aria-label="Toggle navigation" class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        @if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+                        {
+                            <li>
+                                <div class="admin-menu">
+                                    <a href="/Home/Index">Admin Menu</a>
+                                    <div class="menu-links">
+                                        <a asp-area="Admin" asp-controller="Categories" asp-action="Index">Categories</a>
+                                        <a asp-area="Admin" asp-controller="Coupon" asp-action="Index">Coupon</a>
+                                        <a asp-area="Admin" asp-controller="Item" asp-action="Index">Items</a>
+                                        <a asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+                                        <a asp-area="Admin" asp-controller="SubCatgories" asp-action="Index">Sub Categories</a>
+                                        <a asp-area="Admin" asp-controller="User" asp-action="Index">Roles</a>
+                                    </div>
+                                </div>
+
+                            </li>
+                        }
+                        else if (User.IsInRole("Customer"))
+                        {
+                            <li>
+                                <div class="admin-menu">
+                                    <a href="/Home/Index">User Menu</a>
+                                    <div class="menu-links">
+                                        <a asp-area="Customer" asp-controller="Cart" asp-action="Index"> @await Component.InvokeAsync("Cart")</a> 
+                                        <a asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+                                    </div>
+                                </div>
+                            </li>
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            </li>
+                        }
+                    </ul>
+                    <partial name="_LoginPartial" />
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+
+
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- DataTables JS -->
+    <script type="text/javascript" src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

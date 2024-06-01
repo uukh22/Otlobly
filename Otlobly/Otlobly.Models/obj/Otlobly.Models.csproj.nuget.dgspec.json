@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\MVC\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj": {}
+    "E:\\final\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj": {}
   },
   "projects": {
-    "E:\\MVC\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj": {
+    "E:\\final\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\MVC\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj",
+        "projectUniqueName": "E:\\final\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj",
         "projectName": "Otlobly.Models",
-        "projectPath": "E:\\MVC\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj",
-        "packagesPath": "C:\\Users\\khaled ibrahem\\.nuget\\packages\\",
-        "outputPath": "E:\\MVC\\Otlobly\\Otlobly.Models\\obj\\",
+        "projectPath": "E:\\final\\Otlobly\\Otlobly.Models\\Otlobly.Models.csproj",
+        "packagesPath": "C:\\Users\\LOGO\\.nuget\\packages\\",
+        "outputPath": "E:\\final\\Otlobly\\Otlobly.Models\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\khaled ibrahem\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\LOGO\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,7 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -66,26 +61,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       }
     }
