@@ -1,0 +1,271 @@
+﻿@using Microsoft.AspNetCore.Identity
+@model Otlobly.ViewModels.ItemViewModel
+@inject SignInManager<ApplicationUser> SignInManager
+@inject UserManager<ApplicationUser> UserManager
+@{
+    ViewData["Title"] = "Menu";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="~/images/Logo Otlobly.png" type="">
+
+    <title>@ViewData["Title"] - Otlobly</title>
+
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/css/style1.css" rel="stylesheet" />
+    <link href="~/css/responsive.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha384-DyZ88mC6Up2uqS0zKQAXLv/a8kc9zBO1BM3n5VY5H13UyjAVC+fAC+e+0x/8w44b" crossorigin="anonymous">
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/0/util.js"></script>
+    <script type="text/javascript" charset="UTF-8" src="https://maps.googleapis.com/maps-api-v3/api/js/57/0/common.js"></script>
+    <style>
+        .hero_area {
+            position: relative;
+        }
+
+        .bg-box {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+        #oo{
+        color:white;}
+            .bg-box img {
+                width: 100%;
+                height: auto;
+                object-fit: cover;
+            }
+
+        .header_section {
+            position: relative;
+            z-index: 1;
+        }
+
+        .content_section {
+            position: relative;
+            z-index: 1;
+            margin-top: 10px; 
+        }
+
+        .order_online {
+            background-color: transparent;
+            border: none;
+            color: #000;
+            font-size: 24px;
+            cursor: pointer;
+        }
+        h2{
+            color:white;
+        }
+       
+
+li.cc{
+    color:white;
+}
+
+    </style>
+</head>
+
+<body>
+   
+    <section class="hero_area">
+        <div class="bg-box">
+            <img src="~/images/hero-bg.jpg" alt="Background Image">
+        </div>
+        <!-- header section starts -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="~/">
+                        <span>Otlobly</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Customer" asp-controller="Home" asp-action="Index">Menu</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Customer" asp-controller="Cart" asp-action="Index">Cart</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link"  asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+                            </li>
+                        
+                        </ul>
+                        <div class="user_option">
+                            @if (!SignInManager.IsSignedIn(User))
+                            {
+                                <a asp-area="Identity" asp-controller="Account" asp-action="Register" class="order_online">Register</a>
+                                <a href="/Identity/Account/Login" class="order_online">Login</a>
+                            }
+                            else
+                            {
+                                <a class="nav-link text-dark order_online" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                                    <i class="fa fa-shopping-cart"></i> @await Component.InvokeAsync("Cart")
+                                </a>
+                                
+                                
+                                <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" class="form-inline">
+                                    <button type="submit" class="order_online">Logout</button>
+                                </form>
+                            }
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header> <section class="food_section layout_padding content_section">
+            <div class="container">
+                <div class="heading_container heading_center">
+                    <h2>Our Menu</h2>
+                </div>
+                <ul class="filters_menu">
+                    <li class="active" id="oo" data-filter="all">All</li>
+                    @if (Model != null && Model.Categories != null)
+                    {
+                        foreach (var cat in Model.Categories)
+                        {
+                            <li class="cc" data-filter="@cat.Title">@cat.Title</li>
+                        }
+                    }
+                </ul>
+
+                <div class="filters-content">
+                    <div class="row grid">
+                        @if (Model != null && Model.Items != null)
+                        {
+                            foreach (var item in Model.Items)
+                            {
+                                <div class="col-sm-6 col-lg-4 all @item.Category.Title" style="color:wheat;">
+                                    <div class="box">
+                                        <div>
+                                            <div class="img-box">
+                                                @{
+                                                    var base64 = Convert.ToBase64String(item.Image);
+                                                    var imgsrc = String.Format("data:image/jpeg;base64,{0}", base64);
+                                                }
+                                                <img src="@imgsrc" alt="@item.Title">
+                                            </div>
+                                            <div class="detail-box">
+                                                <h5>@item.Title</h5>
+                                                <p>@item.Description</p>
+                                                <div class="options">
+                                                    <h6>@item.Price</h6>
+                                                    <form method="post" asp-action="Index" asp-controller="Cart">
+                                                        <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                                                            <svg version="1.1" id="Capa_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 456.029 456.029" style="enable-background:new 0 0 456.029 456.029;" xml:space="preserve" class="svg-icon">
+                                                            <g>
+                                                            <g>
+                                                            <path d="M345.6,338.862c-29.184,0-53.248,23.552-53.248,53.248c0,29.184,23.552,53.248,53.248,53.248 c29.184,0,53.248-23.552,53.248-53.248C398.336,362.926,374.784,338.862,345.6,338.862z"></path>
+                                            </g>
+                                        </g>
+                                                            <g>
+                                                            <g>
+                                                            <path d="M439.296,84.91c-1.024,0-2.56-0.512-4.096-0.512H112.64l-5.12-34.304C104.448,27.566,84.992,10.67,61.952,10.67H20.48 C9.216,10.67,0,19.886,0,31.15c0,11.264,9.216,20.48,20.48,20.48h41.472c2.56,0,4.608,2.048,5.12,4.608l31.744,216.064 c4.096,27.136,27.648,47.616,55.296,47.616h212.992c26.624,0,49.664-18.944,55.296-45.056l33.28-166.4 C457.728,97.71,450.56,86.958,439.296,84.91z"></path>
+                                            </g>
+                                        </g>
+                                                            <g>
+                                                            <g>
+                                                            <path d="M215.04,389.55c-1.024-28.16-24.576-50.688-52.736-50.688c-29.696,1.536-52.224,26.112-51.2,55.296 c1.024,28.16,24.064,50.688,52.224,50.688h1.024C193.536,443.31,216.576,418.734,215.04,389.55z"></path>
+                                            </g>
+                                        </g>
+                                    </svg>
+                                                        </a>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            }
+                        }
+                    </div>
+                </div>
+                <div class="btn-box">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </section>
+        <!-- end header section -->
+    </section>
+
+    <!-- Menu section -->
+    
+
+   
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+    <!-- Popper -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.10.2/umd/popper.min.js" integrity="sha512-7hZhL8psUnO7dzZB0GlJFnzEfWvN+2jAK1AVVynkFl0YjZFG5i2N4e1Y+0U96VkZh17V7oklDpqb7+E2IGVZmg==" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/js/bootstrap.min.js" integrity="sha512-VZFY2yR5ef/M3VMeF3h30rcZX45GOjglwz90m6nH4/EZnNq2k1YI/wl7txDQOEdz9Ax2n6yTSYlvcA5hQpT9vw==" crossorigin="anonymous"></script>
+
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- Isotope -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js"></script>
+
+    <!-- Nice Select -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js" integrity="sha512-NlTAlf5COASZpOqAFg31qZBaEFzT8ULtJq+IhuwK+5xzTe4TswbAs8TYmDJTQ4Rczma87F9RYhns1lg57/8frw==" crossorigin="anonymous"></script>
+
+    <!-- Custom JavaScript -->
+    <script src="~/js/custom.js"></script>
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            const filtersMenu = document.querySelector(".filters_menu");
+            const gridItems = document.querySelectorAll(".grid .col-sm-6");
+
+            filtersMenu.addEventListener("click", function (event) {
+                if (event.target.tagName === "LI") {
+                    const category = event.target.dataset.filter;
+
+                    // Toggle active class
+                    filtersMenu.querySelectorAll("li").forEach(function (li) {
+                        li.classList.remove("active");
+                    });
+                    event.target.classList.add("active");
+
+                    // Toggle item visibility based on category
+                    gridItems.forEach(function (item) {
+                        const itemCategory = Array.from(item.classList);
+                        console.log("Category:", category);
+                        console.log("Item Category:", itemCategory);
+                        if (category === "all" || itemCategory.includes(category)) {
+                            item.style.display = "block";
+                        } else {
+                            item.style.display = "none";
+                        }
+                    });
+                }
+            });
+        });
+    </script>
+
+
+
+
+</body>
+</html>

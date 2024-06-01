@@ -1,0 +1,143 @@
+﻿@model Otlobly.ViewModels.SubCategoryViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Mobile Metas -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no" />
+    <!-- Site Metas -->
+    <meta name="keywords" content="" />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <link rel="shortcut icon" href="~/images/Logo Otlobly.png" type="">
+
+    <title>@ViewData["Title"] - Otlobly</title>
+
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" type="text/css" href="~/css/bootstrap.css" />
+    <!-- Font awesome style -->
+    <link href="~/css/font-awesome.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="~/css/style1.css" rel="stylesheet" />
+    <style>
+        h2 {
+            color: white;
+        }
+
+        label {
+            color: wheat;
+        }
+
+        .container {
+        }
+
+        #ss {
+            margin-top: 1px;
+            padding-top: 1px;
+        }
+
+        h1, h4 {
+            text-align: center;
+        }
+    </style>
+</head>
+
+<body>
+    <section class="hero_area">
+        <div class="bg-box">
+            <img src="~/images/hero-bg.jpg" alt="">
+        </div>
+        <!-- header section starts -->
+        <header class="header_section">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg custom_nav-container">
+                    <a class="navbar-brand" href="~/">
+                        <span>Otlobly</span>
+                    </a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class=""></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Home" asp-action="Index">Home <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Coupon" asp-action="Index">Coupon</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="SubCategories" asp-action="Index">SubCategories</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Item" asp-action="Index">Item</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="User" asp-action="Index">Roles</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="Admin" asp-controller="Order" asp-action="Index">Orders</a>
+                            </li>
+                        </ul>
+
+                        <div class="user_option">
+                            <form asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })" class="form-inline">
+                                <button type="submit" class="order_online">Logout</button>
+                            </form>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </header>
+
+        <section class="food_section layout_padding" id="ss">
+            <div class="container">
+                <div class="heading_container heading_center">
+                    <h2>Edit SubCategory</h2>
+                </div>
+                <div class="row">
+                    <div class="col-md-4 offset-md-4">
+                        <form asp-action="Edit">
+                            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                            <div class="form-group">
+                                <label class="control-label">Title</label>
+                                <input asp-for="Title" class="form-control" placeholder="Enter title" />
+                                <span asp-validation-for="Title" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <label class="control-label">Category</label>
+                                <select asp-for="CartegoryID" class="form-control" asp-items="@ViewBag.Category">
+                                    <option>Select Category</option>
+                                </select>
+                                <span asp-validation-for="CartegoryID" class="text-danger"></span>
+                            </div>
+                            <div class="form-group">
+                                <input type="submit" value="Save" class="btn btn-primary btn-block" />
+                                <a asp-action="Index" class="btn btn-secondary btn-block">Back to Index</a>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+
+                <div class="text-center">
+                    <a asp-action="Index" class="btn btn-secondary">Back to Index</a>
+                </div>
+            </div>
+        </section>
+    </section>
+
+    <script src="~/js/jquery-3.4.1.min.js"></script>
+    <!-- bootstrap js -->
+    <script src="~/js/bootstrap.js"></script>
+    <!-- custom js -->
+    <script src="~/js/custom.js"></script>
+</body>
+</html>

@@ -1,0 +1,342 @@
+﻿@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap");
+/* Base */
+:root {
+    --clr-primary: #a43817;
+    --clr-secondary: #272d36;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #fff;
+    color: var(--clr-secondary);
+    overflow-x: hidden;
+}
+
+.section {
+    width: 100%;
+    padding: 40px 0;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    padding: 0 30px;
+}
+
+.primary {
+    font-size: 64px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.secondary {
+    font-size: 44px;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.tertiary {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.btn {
+    padding: 14px 20px;
+    background: var(--clr-primary);
+    border-radius: 4px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 22px;
+    display: inline-block;
+    margin: 20px 0;
+}
+
+/* End Base */
+
+/* Menu */
+nav {
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    background: #fff5f2;
+    box-shadow: 0 1px 1px -1px rgba(0, 0, 0, 0.22);
+    z-index: 22;
+}
+
+label.logo {
+    font-size: 35px;
+    line-height: 80px;
+    padding: 0 30px;
+    font-weight: 700;
+}
+
+nav ul {
+    float: right;
+    margin-right: 20px;
+}
+
+    nav ul li {
+        display: inline-block;
+        line-height: 80px;
+        margin: 0 5px;
+    }
+
+        nav ul li a {
+            font-size: 18px;
+            padding: 7px 13px;
+            text-decoration: none;
+            color: var(--clr-secondary);
+        }
+
+.menu a.active,
+.menu a:hover {
+    border-bottom: 2px solid var(--clr-primary);
+    transition: 0.3s;
+}
+
+.checkbtn {
+    font-size: 30px;
+    color: #fff;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+
+#check {
+    display: none;
+}
+/* End Menu */
+
+/* Hero Section */
+#hero-section {
+    background: #fff5f2;
+    margin-top: 60px;
+}
+
+.text,
+.visual {
+    width: 50%;
+}
+
+.text {
+    margin: 0 20px;
+}
+
+.visual img {
+    width: 80%;
+    height: auto;
+    display: block;
+}
+
+#hero-section .text {
+    margin-left: 30px;
+}
+
+#hero-section .visual img {
+    margin-left: auto;
+}
+/* End Hero Section */
+
+/* How It Works */
+#how-it-works {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.box {
+    border: 1px solid #b2b2b2;
+    padding: 25px 5px;
+    margin: 0 10px;
+    border-radius: 8px;
+    font-size: 18px;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+    .box ion-icon {
+        font-size: 35px;
+        color: var(--clr-primary);
+        margin: 15px 0;
+    }
+
+    .box.active,
+    .box:hover {
+        color: #fff;
+        border-color: var(--clr-primary);
+        background: var(--clr-primary);
+    }
+
+        .box.active ion-icon,
+        .box:hover ion-icon {
+            color: #fff;
+        }
+/* End How It Works */
+
+/* Responsive  */
+@media (max-width: 952px) {
+    label.logo {
+        font-size: 30px;
+        padding-left: 20px;
+    }
+
+    nav ul li a {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 858px) {
+    .checkbtn {
+        display: block;
+        color: var(--clr-primary);
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        top: 80px;
+        left: -100%;
+        top: 80px;
+        transition: all 0.5s;
+        text-align: center;
+        background: #fff5f2;
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 30px;
+    }
+
+        nav ul li a {
+            font-size: 20px;
+        }
+
+    .menu a:hover,
+    .menu a.active {
+        background: none;
+        color: var(--clr-primary);
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+
+    #hero-section {
+        margin-top: 80px;
+    }
+
+        #hero-section .text {
+            margin-left: auto;
+        }
+
+    .flex {
+        flex-direction: column;
+    }
+
+    .visual,
+    .text {
+        width: 70%;
+        margin: 15px auto;
+        text-align: center;
+    }
+
+        .visual img {
+            margin: 0 auto;
+        }
+
+    .box {
+        margin: 15px 0;
+    }
+
+    .restaurant-menu {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+    }
+}
+
+@media (max-width: 680px) {
+    .container {
+        padding: 0 10px;
+    }
+
+    .text,
+    .visual {
+        width: 90%;
+    }
+
+    .restaurant-menu {
+        grid-template-columns: 1fr;
+    }
+
+    .primary {
+        font-size: 48px;
+    }
+
+    .secondary {
+        font-size: 32px;
+    }
+
+    .tertiary {
+        font-size: 17px;
+    }
+}
+/* Dropdown Button */
+.dropdown-btn {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Style the links inside the dropdown menu */
+.dropdown-content a {
+    display: block;
+    padding: 8px 16px;
+    text-decoration: none;
+    color: black;
+}
+
+    /* Change color of dropdown links on hover */
+    .dropdown-content a:hover {
+        background-color: #f1f1f1;
+    }
+
+/* End Responsive  */

@@ -1,0 +1,171 @@
+D:\mvc project\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+D:\mvc project\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+D:\mvc project\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+D:\mvc project\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+D:\mvc project\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+D:\mvc project\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+D:\mvc project\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+E:\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+E:\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+E:\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+E:\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+E:\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+E:\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+E:\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\OtloblyYa3omry\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+C:\Users\LOGO\Downloads\ai pdf\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+E:\IDE\VS\Software Development\حقختثؤف\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+C:\Users\khaled ibrahem\OneDrive\Desktop\Otlobly\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+C:\Users\LOGO\Desktop\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+E:\MVC\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+E:\MVC\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+E:\MVC\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+E:\MVC\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+E:\MVC\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+E:\MVC\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.sourcelink.json
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+E:\MVC\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+E:\New folder (2)\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll
+E:\final\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.deps.json
+E:\final\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.runtimeconfig.json
+E:\final\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.dll
+E:\final\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Repository.pdb
+E:\final\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.dll
+E:\final\Otlobly\Otlobly.Repository\bin\Debug\net7.0\Otlobly.Models.pdb
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.AssemblyReference.cache
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.GeneratedMSBuildEditorConfig.editorconfig
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfoInputs.cache
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.AssemblyInfo.cs
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.csproj.CoreCompileInputs.cache
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly..F1ACF73C.Up2Date
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.dll
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\refint\Otlobly.Repository.dll
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.pdb
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\Otlobly.Repository.genruntimeconfig.cache
+E:\final\Otlobly\Otlobly.Repository\obj\Debug\net7.0\ref\Otlobly.Repository.dll

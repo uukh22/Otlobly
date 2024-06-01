@@ -1,0 +1,70 @@
+﻿@{
+    if (User.IsInRole("Admin") || User.IsInRole("Manager"))
+    {
+        Layout = "admin";
+    }
+    else
+    {
+        Layout = "HomeLayout";
+
+    }
+}
+
+<body>
+    <div class="section flex" id="hero-section">
+        <div class="text">
+            <h1 class="primary">
+                It's Not Just Food, <br />
+                It's an <span>Experience</span>
+            </h1>
+
+            <p class="tertiary">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa,
+                provident dolorum. Voluptatum ducimus minima quasi unde, voluptatibus
+                soluta eligendi. Enim, architecto autem.
+            </p>
+
+            <a asp-area ="Customer" asp-controller="Home" asp-action="Index" class="btn">Explore Menu</a>
+        </div>
+
+        <div class="visual">
+            <img src="https://raw.githubusercontent.com/programmercloud/foodlover/main/img/home-banner.png" alt="" />
+        </div>
+
+    </div>
+
+    <div class="section" id="how-it-works">
+        <h2 class="secondary">How It Works</h2>
+
+        <div class="container flex">
+
+            <div class="box">
+                <h3>Easy Order</h3>
+                <ion-icon name="timer-outline"></ion-icon>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                    non?
+                </p>
+            </div>
+
+            <div class="box active">
+                <h3>Best Quality</h3>
+                <ion-icon name="trophy-outline"></ion-icon>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                    non?
+                </p>
+            </div>
+
+            <div class="box">
+                <h3>Fast Delivery</h3>
+                <ion-icon name="checkmark-done-circle-outline"></ion-icon>
+                <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aperiam,
+                    non?
+                </p>
+            </div>
+
+        </div>
+    </div>
+</body>
